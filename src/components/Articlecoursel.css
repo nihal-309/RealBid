@@ -1,0 +1,40 @@
+.carousel-item-padding-40-px {
+    padding: 0 0px; 
+}
+
+.cardset {
+    margin: 0 auto;
+    padding-bottom: 7%;
+}
+
+.card {
+    background: #fff;
+    border: 1px solid #ccc;
+    margin-top:10%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    border-radius: 10px;
+    padding: 7%;
+    width: 70%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.articlereviewcontent {
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #333;
+}
+.articleimage
+{
+    width: 98%;
+}
+.newsheadline
+{
+    text-align: left;
+}
+.linkclass
+{
+    
+    text-align: left;
+    color: black;
+}
