@@ -127,6 +127,11 @@
     margin: 0 40px;
     align-items: center;
     justify-content: center;
+    transition: ease 0.5s;
+}
+
+.box:hover{
+    transform: scale(1.1);
 }
 
 .box img{

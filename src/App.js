@@ -5,6 +5,7 @@ import Hero from './components/Hero';
 import Main from './components/Main';
 import Click from './components/Click';
 import Partner from './components/Partner';
+import Login from './components/Login';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Main />
       <Click />
       <Partner />
+      {/* <Login /> */}
     </div>
   );
 }

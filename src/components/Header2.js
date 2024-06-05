@@ -1,5 +1,14 @@
-import '../styles/Header2.css'
+import '../styles/Header2.css';
+import { useState } from 'react';
+import Login from '../components/Login';
+
 function Header2(){
+
+    const [showLogin, setShowLogin] = useState(false);
+    const handleClick = () =>{
+        setShowLogin(true);
+    }
+
     return(
         <div className="Header2">
             <select name="" id="tender">
@@ -9,8 +18,9 @@ function Header2(){
             <select name="" id="properties">
                 <option value="Properties for auction">Properties for auction</option>
             </select>
-            <button className='login'>Login</button>
+            <button onClick={handleClick} className='login'>Login</button>
             <button className='reg'>Register</button>
+            {showLogin && <div className="loginWindow"><Login /></div>}
         </div>
     )
 }

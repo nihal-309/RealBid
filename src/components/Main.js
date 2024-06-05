@@ -59,7 +59,7 @@ function Main() {
                     </div>
                     <div className="box">
                         <img src={IMG5} alt="" />
-                        <p>Personl Assistance</p>
+                        <p>Personal Assistance</p>
                     </div>
                     <select name="" id="tender1">
                         <option className='tend' value="Tenders for Auction">Tenders for Auction</option>
