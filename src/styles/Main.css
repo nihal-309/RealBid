@@ -1,0 +1,161 @@
+.Main{
+    width: 1029px;
+    /* height: 1164px; */
+    background-color: #3D3D3D;
+    border-radius: 25px;
+    position: relative;
+    margin: auto;
+    bottom: 150px;
+    padding: 100px 50px;
+}
+
+.line{
+    border-left: 2px solid rgb(255, 255, 255, 0.29);
+    height: 44px;
+}
+
+.row1{
+    display: flex;
+    align-items: center;
+    margin: 0 22%;
+}
+
+.res{
+    margin-right: 200px;
+}
+
+.com{
+    margin-left: 200px;
+}
+
+.row1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.type1{
+    width: 120px;
+    height: 35px;
+    background-color: rgb(0, 0, 0, 0.8);
+    color: #FF6800;
+}
+
+.type1:hover{
+    background-color: rgb(0, 0, 0, 0.4);
+    transition: ease 0.5s;
+}
+
+.type2{
+    width: 240px;
+    height: 41px;
+    background-color: black;
+    color: white;
+}
+
+.type2:hover{
+    background-color: rgb(0, 0, 0, 0.4);
+    transition: ease 0.5s;
+}
+
+.row2 button{
+    margin: 0 30px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.row2{
+    margin: 7% 8.5%;
+}
+
+.inp{
+    width: 634px;
+    height: 41px;
+    padding-left: 50px;
+    border-radius: 8px;
+    border: none;
+}
+
+.search{
+    position: relative;
+    left: 4%;
+    top: 4px;
+}
+
+.searchbtn{
+    background-color: #FF6800;
+    width: 150px;
+    height: 41px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    margin: 0 20px;
+}
+
+.dropdown{
+    width: 192px;
+    height: 41px;
+    margin: 0 15px;
+    border: none;
+    border-radius: 8px;
+    padding: 0 10px;
+}
+
+.row3{
+    margin-left: 5%;
+}
+
+.row4{
+    margin-top: 80px;
+    margin-left: 5%;
+}
+
+.line1{
+    border-top: 2px solid rgb(255, 255, 255, 0.29);
+    width: 950px;
+    height: 0;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+.first{
+    display: flex;
+}
+
+.box{
+    margin: 0 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.box img{
+    margin: auto;
+    display: block;
+}
+
+.first{
+    margin-top: 90px;
+}
+
+.sec{
+    margin-left: 10px;
+}
+
+.odd{
+    margin-left: 70px;
+}
+
+select#tender1, select#properties1{
+    border: none;
+    background-color: #3D3D3D;
+    color: white;
+    font-weight: 600;
+    max-height: 40px;
+    margin-top: 57px;
+}
+
+.row5{
+    margin-left: 2%;
+    color: white;
+}

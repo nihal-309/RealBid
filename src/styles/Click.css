@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.Click{
+    width: 929px;
+    height: 170px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 150px;
+    padding: 20px 25px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.Click {
+    background-image: radial-gradient(
+      farthest-corner at 100px 6000px,
+      #FCBB00 87%,
+      #E055C0 101%
+    );
+}
+
+.content{
+    width: 400px;
+    font-family: 'Outfit';
+}
+
+.content h1{
+    font-size: 50px;
+    margin-top: 0;
+}
+
+.Click img{
+    margin-left: 70px;
+    margin-top: 40px;
+}
+
+.Click button{
+    width: 120px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
