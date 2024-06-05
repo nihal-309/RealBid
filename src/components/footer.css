@@ -1,0 +1,43 @@
+.footer
+{
+    text-align: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+.listcontent
+{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+.logoimg
+{
+    width: 20%;
+    border-radius: 70%;
+}
+.listitem
+{
+    margin-left: 7%;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.big-underline-hr {
+    border: none; 
+    height: 1px; 
+    background-color: #ffffff;
+    width: 90%; 
+    margin-bottom: 3%;
+}
+.logolist
+{
+    cursor: pointer;
+    margin-right: 3%;
+    font-size: 6vh;
+}
+.footertext
+{
+    padding-bottom: 2%;
+}

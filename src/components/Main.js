@@ -1,13 +1,13 @@
 import '../styles/Main.css'
-import IMG1 from '../assets/search.png'
-import IMG2 from '../assets/1.png'
-import IMG3 from '../assets/2.png'
-import IMG4 from '../assets/3.png'
-import IMG5 from '../assets/4.png'
-import IMG6 from '../assets/5.png'
-import IMG7 from '../assets/6.png'
-import IMG8 from '../assets/7.png'
-import IMG9 from '../assets/8.png'
+import IMG1 from '../Assets/search.png'
+import IMG2 from '../Assets/1.png'
+import IMG3 from '../Assets/2.png'
+import IMG4 from '../Assets/3.png'
+import IMG5 from '../Assets/4.png'
+import IMG6 from '../Assets/5.png'
+import IMG7 from '../Assets/6.png'
+import IMG8 from '../Assets/7.png'
+import IMG9 from '../Assets/8.png'
 
 function Main() {
     return(

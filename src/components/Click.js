@@ -1,5 +1,5 @@
 import '../styles/Click.css'
-import IMG1 from '../assets/phone.png'
+import IMG1 from '../Assets/phone.png'
 
 function Click() {
     return(

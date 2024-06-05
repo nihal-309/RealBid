@@ -5,20 +5,28 @@ import Hero from './components/Hero';
 import Main from './components/Main';
 import Click from './components/Click';
 import Partner from './components/Partner';
-import Login from './components/Login';
+import Coursel from './components/coursel';
+import Articlecoursel from './components/Articlecoursel';
+import Footer from './components/footer';import Login from './components/Login';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Header2 />
-      <Hero />  
-      <Main />
-      <Click />
-      <Partner />
+    <div>
+      <div className="App">
+        <Header />
+        <Header2 />
+        <Hero />
+        <Main />
+        <Click />
+        <Partner />
+        <h1 className='headercarousal'>Here From Our Customer</h1>
+        <Coursel />
+        <h1 className='headercarousal'>News and Articles</h1>
+        <Articlecoursel />
+      </div>
+      <Footer />
       {/* <Login /> */}
     </div>
   );
 }
-
 export default App;
