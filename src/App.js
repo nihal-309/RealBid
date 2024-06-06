@@ -19,13 +19,11 @@ function App() {
         <Main />
         <Click />
         <Partner />
-        <h1 className='headercarousal'>Here From Our Customer</h1>
         <Coursel />
-        <h1 className='headercarousal'>News and Articles</h1>
         <Articlecoursel />
       </div>
       <Footer />
-      {/* <Login /> */}
+      <Login />
     </div>
   );
 }

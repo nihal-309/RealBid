@@ -3,8 +3,8 @@ import '../styles/Partner.css'
 function Partner() {
     return(
         <div className="Partner">
-            <div className="cont">
-                <h1 className='head'>Partnership With RealBid</h1>
+            <div className="contt">
+                <h1 className='headd'>Partnership With RealBid</h1>
                 <p>
                     Are you part of a government body or a private sector company aiming to optimize returns from asset auctions or liquidations? Explore a strategic partnership with RealBid.
                 </p>
@@ -16,7 +16,7 @@ function Partner() {
                 </p>
                 <button>Lets Talk</button>
             </div>
-            <h1 className='site'>RealBid.Com</h1>
+            <h1 className='sitee'>RealBid.Com</h1>
         </div>
     )
 }

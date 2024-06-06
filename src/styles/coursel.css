@@ -5,6 +5,7 @@
 .cardset {
     margin: 0 auto;
     padding-bottom: 2%;
+    background-color: rgb(245, 235, 235, 0.69);
 }
 
 .card {
@@ -37,3 +38,9 @@
     width: 42%;
     border-radius: 100%;
 }
+
+.headercarousal{
+    margin-top: 0;
+    padding-top: 3%;
+}
+

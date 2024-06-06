@@ -7,18 +7,19 @@
     padding: 40px 35px;
     display: flex;
     justify-content: space-between;
+    text-align: left;
 }
 
-.cont{
+.contt{
     width: 650px;
 }
 
-.cont h1{
+.contt h1{
     font-size: 50px;
     margin: 0;
 }
 
-.cont p{
+.contt p{
     margin: 40px 0;
     font-weight: 600;
     color: white;
@@ -32,13 +33,13 @@
     background-color: #FF6800;
 }
 
-.site{
+.sitee{
     color: #FF6800;
     font-size: 50px;
     font-family: 'Outfit';
     margin: 0;
 }
 
-.head{
+.headd{
     color: white;
 }

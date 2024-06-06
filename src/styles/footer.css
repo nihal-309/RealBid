@@ -4,6 +4,7 @@
     align-items: center;
     background-color: black;
     color: white;
+    padding: 2%;
 }
 .listcontent
 {
@@ -18,12 +19,17 @@
     width: 20%;
     border-radius: 70%;
 }
-.listitem
-{
+.listitem{
     margin-left: 7%;
     cursor: pointer;
     text-decoration: underline;
+    color: white;
 }
+
+.listitem a{
+    color: white;
+}
+
 .big-underline-hr {
     border: none; 
     height: 1px; 
@@ -39,5 +45,5 @@
 }
 .footertext
 {
-    padding-bottom: 2%;
+    margin-bottom: 0;
 }

@@ -2,10 +2,16 @@
     padding: 0 0px; 
 }
 
-.cardset {
-    margin: 0 auto;
-    padding-bottom: 7%;
+.headercarousal{
+    margin-top: 0;
+    padding-top: 3%;
 }
+
+.card-cont{
+    margin: 0 auto;
+    background-color: rgb(245, 235, 235, 0.69);
+}
+
 
 .card {
     background: #fff;

@@ -1,8 +1,8 @@
 import React from 'react'
 import Carousel from 'react-multi-carousel';
-import './coursel.css';
+import '../styles/coursel.css';
 import 'react-multi-carousel/lib/styles.css';
-import customerimg from '../Assets/newarticle.jpeg'
+import customerimg from '../assets/newarticle.jpeg'
 function Coursel() {
     const responsive = {
         superLargeDesktop: {
@@ -24,9 +24,10 @@ function Coursel() {
     };
     return (
         <div className='cardset'>
+            <h1 className='headercarousal'>News and Articles</h1>
             <Carousel responsive={responsive} itemClass="carousel-item-padding-40-px">
                 <div className='card'>
-                    <img src={customerimg} alt='there is an image' className='customerreview'></img>
+                    <img src={customerimg} alt='' className='customerreview'></img>
                     <p className='reviewcontent'>
                         "This is a cutomer quote the customer
                         is going to share there opinion about
@@ -40,7 +41,7 @@ function Coursel() {
                     </h4>
                 </div>
                 <div className='card'>
-                    <img src={customerimg} alt='there is an image' className='customerreview'></img>
+                    <img src={customerimg} alt='' className='customerreview'></img>
                     <p className='reviewcontent'>
                         "This is a cutomer quote the customer
                         is going to share there opinion about
@@ -54,7 +55,7 @@ function Coursel() {
                     </h4>
                 </div>
                 <div className='card'>
-                    <img src={customerimg} alt='there is an image' className='customerreview'></img>
+                    <img src={customerimg} alt='' className='customerreview'></img>
                     <p className='reviewcontent'>
                         "This is a cutomer quote the customer
                         is going to share there opinion about
@@ -68,7 +69,7 @@ function Coursel() {
                     </h4>
                 </div>
                 <div className='card'>
-                    <img src={customerimg} alt='there is an image' className='customerreview'></img>
+                    <img src={customerimg} alt='' className='customerreview'></img>
                     <p className='reviewcontent'>
                         "This is a cutomer quote the customer
                         is going to share there opinion about
@@ -82,7 +83,7 @@ function Coursel() {
                     </h4>
                 </div>
                 <div className='card'>
-                    <img src={customerimg} alt='there is an image' className='customerreview'></img>
+                    <img src={customerimg} alt='' className='customerreview'></img>
                     <p className='reviewcontent'>
                         "This is a cutomer quote the customer
                         is going to share there opinion about
@@ -96,7 +97,7 @@ function Coursel() {
                     </h4>
                 </div>
                 <div className='card'>
-                    <img src={customerimg} alt='there is an image' className='customerreview'></img>
+                    <img src={customerimg} alt='' className='customerreview'></img>
                     <p className='reviewcontent'>
                         "This is a cutomer quote the customer
                         is going to share there opinion about
@@ -110,7 +111,7 @@ function Coursel() {
                     </h4>
                 </div>
                 <div className='card'>
-                    <img src={customerimg} alt='there is an image' className='customerreview'></img>
+                    <img src={customerimg} alt='' className='customerreview'></img>
                     <p className='reviewcontent' id='lastcard'>
                         "This is a cutomer quote the customer
                         is going to share there opinion about
