@@ -13,3 +13,23 @@
 .adress{
     width: 458px !important;
 }
+
+.first{
+    display: none !important;
+}
+
+.auction{
+    display: none !important;
+}
+
+.adress{
+    width: 458px !important;
+}
+
+.hide{
+    display: none;
+}
+
+.bids{
+    margin-top: 10px;
+}

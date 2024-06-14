@@ -73,6 +73,7 @@
     margin-bottom: 10px;
     /* max-width: 220px; */
     /* border-right: 1px solid black; */
+    font-size: 16px;
 }
 
 .row p{
@@ -85,7 +86,7 @@
 
 .infoFirst, .infoSec{
     /* border-right: 1px solid black; */
-    margin-right: 45px;
+    margin-right: 10px;
     font-size: 17px;
 }
 
@@ -109,7 +110,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 10px;
     text-align: center;
 }
 
@@ -141,4 +142,22 @@
 
 .end img{
     margin-right: 5px ;
+}
+
+.arrow{
+    display: block;
+    margin: auto;
+}
+
+.bids{
+    margin-top: 10px;
+}
+
+.extra{
+    background-color: #D9D9D9;
+    padding: 15px 10px;
+}
+
+.avail{
+    font-size: 15.3px;
 }

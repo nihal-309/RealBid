@@ -45,7 +45,7 @@ function BuyResidential() {
                     railway="4"
                     finalPrice="1,20,00,000"
                     furnish="Semi"
-                    button="Get Owner Details"
+                    button="Bid Now"
                     card={styles.buyResCard}
                 />
                 <BuyResCard 
@@ -88,9 +88,9 @@ function BuyResidential() {
                     button="Get Owner Details"
                     card={styles.buyResCard}
                 />
-                <BuyResCard 
+                <BuyResCard  //with auction
                     adress="Vellore Institute of Technology , Katpadi, Vellore Tamil Nadu  , India , 632014 "
-                    auction="Without Auction"
+                    auction="Auction"
                     bathroom="3"
                     facing="North"
                     bedroom="3"
@@ -105,7 +105,7 @@ function BuyResidential() {
                     railway="4"
                     finalPrice="1,20,00,000"
                     furnish="Semi"
-                    button="Get Owner Details"
+                    button="Bid Now"
                     card={styles.buyResCard}
                 />
                 <BuyResCard 

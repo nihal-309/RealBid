@@ -10,8 +10,9 @@
     height: 360px;
 }
 
+
 .bids{
-    display: none;
+    display: none !important;
 }
 
 .hide{

@@ -1,4 +1,4 @@
-import styles from '../styles/BuyResCard2.module.css'
+import styles from '../styles/BuyResCard3.module.css'
 import IMG1 from '../assets/resImg.png';
 import IMG2 from '../assets/bathroom.png';
 import IMG4 from '../assets/kitchen.png';
@@ -11,6 +11,7 @@ import IMG10 from '../assets/tick.png';
 import IMG11 from '../assets/furnish.png';
 import IMG12 from '../assets/bids.png'
 import IMG13 from '../assets/time.png';
+import IMG14 from '../assets/arrow.png';
 
 function buyResCard(props){
     const { auctions } = props;
@@ -53,6 +54,10 @@ function buyResCard(props){
                             <img src={IMG6} alt="" />
                             <p>Facing : {props.facing}</p>
                         </div>
+                        <div className={`${styles.row} ${styles.row1}`}>
+                            <img src={IMG6} alt="" />
+                            <p className={styles.avail}>Availablity : {props.availablity}</p>
+                        </div>
                     </div>
                     <div className={styles.infoSec}>
                         <div className={styles.row}>
@@ -72,24 +77,28 @@ function buyResCard(props){
                             <p>Parking : {props.parking}</p>
                         </div>
                     </div>
+        
                     <div className={styles.infoThird}>
-                        <div className={styles.row}>
-                            <img src={IMG10} alt="" />
-                            <p>School : {props.school} km</p>
-                        </div>
-                        <div className={`${styles.row} ${styles.row1} ${styles.last}`}> 
+                        <div className={styles.extra}>
+                            <div className={styles.row}>
                                 <img src={IMG10} alt="" />
-                                <p>Hospital : {props.hospital} km</p>
+                                <p>Power Backup</p>
+                            </div>
+                            <div className={`${styles.row}`}> 
+                                    <img src={IMG10} alt="" />
+                                    <p>CCTV Surveillance</p>
+                            </div>
+                            <div className={`${styles.row} `}>
+                                <img src={IMG10} alt="" />
+                                <p>Internet Connectivity</p>
+                            </div>
+                            <div className={`${styles.row}`}>
+                                <img src={IMG10} alt="" />
+                                <p>Central Air Conditioning</p>
+                            </div>
+                            <img className={`${styles.arrow}`} src={IMG14} alt="" />
                         </div>
-                        <div className={`${styles.row} ${styles.row1} ${styles.last}`}>
-                            <img src={IMG10} alt="" />
-                            <p>Airport : {props.airport} km</p>
-                        </div>
-                        <div className={`${styles.row} ${styles.row1} ${styles.last}`}>
-                            <img src={IMG10} alt="" />
-                            <p>Railway Station : {props.railway} km</p>
-                        </div>
-                        <div className={`${styles.row} ${styles.last} ${styles.row1} ${bids}`}>
+                        <div className={`${styles.row} ${bids}`}>
                             <img src={IMG12} alt="" />
                             <p>Bids : 7</p>
                         </div>

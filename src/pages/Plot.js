@@ -7,7 +7,7 @@ function Plot(){
         <div className={styles.BuyResidential}>
             <Filter className={styles.filter}/>
             <div className={styles.cards}>
-                <BuyResCard 
+                <BuyResCard  //auction
                     adress="Vellore Institute of Technology , Katpadi, Vellore Tamil Nadu  , India , 632014 "
                     auction="Auction"
                     bathroom="3"
@@ -24,10 +24,10 @@ function Plot(){
                     railway="4"
                     finalPrice="1,20,00,000"
                     card={styles.buyResCard}
-                    button="Get Owner Details"
+                    button="Bid Now"
                     furnish="Semi"
                 />
-                <BuyResCard 
+                <BuyResCard //without auction
                     adress="Vellore Institute of Technology , Katpadi, Vellore Tamil Nadu  , India , 632014 "
                     auction="Without Auction"
                     bathroom="3"
@@ -46,8 +46,30 @@ function Plot(){
                     card={styles.buyResCard}
                     button="Get Owner Details"
                     furnish="Semi"
+                    bids={styles.bids}
+                    hide={styles.hide}
                 />
-                <BuyResCard 
+                <BuyResCard  //auction
+                    adress="Vellore Institute of Technology , Katpadi, Vellore Tamil Nadu  , India , 632014 "
+                    auction="Auction"
+                    bathroom="3"
+                    facing="North"
+                    bedroom="3"
+                    kitchen="1"
+                    bhk="3"
+                    builtArea="4500 sq.ft"
+                    avgPrice="16.67k/sq.ft"
+                    parking="Car"
+                    school="3"
+                    hospital="1"
+                    airport="10"
+                    railway="4"
+                    finalPrice="1,20,00,000"
+                    card={styles.buyResCard}
+                    button="Bid Now"
+                    furnish="Semi"
+                />
+                <BuyResCard //without auction
                     adress="Vellore Institute of Technology , Katpadi, Vellore Tamil Nadu  , India , 632014 "
                     auction="Without Auction"
                     bathroom="3"
@@ -65,6 +87,28 @@ function Plot(){
                     finalPrice="1,20,00,000"
                     card={styles.buyResCard}
                     button="Get Owner Details"
+                    furnish="Semi"
+                    bids={styles.bids}
+                    hide={styles.hide}
+                />
+                <BuyResCard  //auction
+                    adress="Vellore Institute of Technology , Katpadi, Vellore Tamil Nadu  , India , 632014 "
+                    auction="Auction"
+                    bathroom="3"
+                    facing="North"
+                    bedroom="3"
+                    kitchen="1"
+                    bhk="3"
+                    builtArea="4500 sq.ft"
+                    avgPrice="16.67k/sq.ft"
+                    parking="Car"
+                    school="3"
+                    hospital="1"
+                    airport="10"
+                    railway="4"
+                    finalPrice="1,20,00,000"
+                    card={styles.buyResCard}
+                    button="Bid Now"
                     furnish="Semi"
                 />
             </div>

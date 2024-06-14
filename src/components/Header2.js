@@ -62,6 +62,7 @@ function Header2(){
                 onRequestClose={closeLogin}
                 contentLabel="Example Modal"
                 className={styles.loginWindow}
+                shouldCloseOnOverlayClick={false}
                 style={{
                     overlay: {
                         backgroundColor: 'rgba(0, 0, 0, 0.5)'
