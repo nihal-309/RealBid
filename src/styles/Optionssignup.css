@@ -1,0 +1,54 @@
+  .optionsignup {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .indiviselectsignup,
+  .companyselectsignup {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.03em;
+    text-transform: capitalize;
+    cursor: pointer;
+  }
+  
+  .indiviselectsignup {
+    color: #FF6800;
+  }
+  
+  .companyselectsignup {
+    color: #FFFFFF;
+  }
+  
+  .indiviselectsignup.selected {
+    color: #FF6800;
+  }
+  
+  .companyselectsignup.selected {
+    color: #FF6800;
+  }
+  
+  .indiviselectsignup:not(.selected) {
+    color: #FFFFFF;
+  }
+  
+  .companyselectsignup:not(.selected) {
+    color: #FFFFFF;
+  }
+  
+  .dividersignup {
+    position: absolute;
+    width: 63px;
+    height: 0px;
+    left: 579.5px;
+    top: 276px;
+    border: 1px solid rgba(255, 255, 255, 0.27);
+    transform: rotate(90deg);
+  }
+  

@@ -1,0 +1,42 @@
+.headercontpartnership
+{
+    display: flex;
+    justify-content: space-between;
+}
+.leftaltext {
+    margin-left: 6%;
+    margin-top: 6%;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.03em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.rightaltext {
+    margin-right: 5%;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.03em;
+    text-transform: capitalize;
+    color: #FF6800;
+}
+
+.mainpartner {
+    position: absolute;
+    width: 1135px;
+    height: 110%;
+    left: 5%;
+    top: 15%;
+    background: #3D3D3D;
+    border-radius: 15px;
+}

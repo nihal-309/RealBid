@@ -1,0 +1,35 @@
+.msgsignup p
+{
+    margin: 0px;
+}
+.msgsignup ,.congsignup
+{
+    margin: 0px;
+    padding: 0px;
+}
+.msgsignup {
+    margin-left: 5%;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+    align-items: center;
+    letter-spacing: -0.03em;
+    text-transform: capitalize;
+
+    color: #FFFF;
+}
+.congsignup {
+    margin-left: 5%;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.03em;
+    text-transform: capitalize;
+    color: #FF6800;
+}
