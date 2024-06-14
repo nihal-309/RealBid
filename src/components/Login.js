@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import '../styles/Login.css';
 import 'react-phone-input-2/lib/style.css'
 import IMG2 from '../assets/google.png';

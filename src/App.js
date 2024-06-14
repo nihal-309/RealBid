@@ -13,6 +13,7 @@ import Layout from './Layout';
 import { animateScroll as scroll } from 'react-scroll';
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
+import Signup from './pages/Signup';
 
 function App(){
   const ScrollToTop = () => {
@@ -61,6 +62,11 @@ function App(){
         <Route path="/rentCommercial" element={
         <Layout>
           <RentCommercial />
+        </Layout>
+        } />
+        <Route path="/signup" element={
+        <Layout>
+          <Signup />
         </Layout>
         } />
     </Routes>
