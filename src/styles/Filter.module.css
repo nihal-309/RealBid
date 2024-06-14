@@ -1,0 +1,53 @@
+.filters{
+    width: 324px;
+    max-height: 90vh;
+    background-color: white;
+    padding: 30px 15px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    overflow-y: auto;
+}
+
+.propType label{
+    margin-left: 10px;
+}
+
+.propType{
+    box-shadow: 2px 2px 3px 2px rgb(0,0,0,0.25);
+    border-radius: 8px;
+    padding: 10px 15px;
+    width: 239px;
+    margin: 25px auto;
+}
+
+.head{
+    margin-left: 20px;
+}
+
+.bhk{
+    background-color: #FF6800;
+    width: 58px;
+    height: 35px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    margin: 8px 4px;
+}
+
+.last h3{
+    margin-top: 10px;
+}
+
+.filter{
+    display: block;
+    background-color: #FF6800;
+    width: 239px;
+    height: 42px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    margin: 8px auto;
+}

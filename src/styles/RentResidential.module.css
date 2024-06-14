@@ -1,0 +1,23 @@
+.BuyResidential{
+    display: flex;
+}
+
+.cards{
+    margin: auto;
+}
+
+.first{
+    display: none !important;
+}
+
+.auction{
+    display: none !important;
+}
+
+.adress{
+    width: 458px !important;
+}
+
+.hide{
+    display: none;
+}

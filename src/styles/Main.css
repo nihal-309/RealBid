@@ -14,6 +14,12 @@
     height: 44px;
 }
 
+.row1 button{
+    background-color: #3D3D3D;
+    border: none;
+    width: 120px;
+}
+
 .row1{
     display: flex;
     align-items: center;
@@ -22,6 +28,10 @@
 
 .res{
     margin-right: 200px;
+}
+
+.res a{
+    color: #FF6800 ; 
 }
 
 .com{
@@ -38,9 +48,36 @@
     height: 35px;
     background-color: rgb(0, 0, 0, 0.8);
     color: #FF6800;
+    
 }
 
 .type1:hover{
+    background-color: rgb(0, 0, 0, 0.4);
+    transition: ease 0.5s;
+}
+
+.type3 {
+    text-align: center;
+    line-height: 35px;
+    display: inline-block;
+    width: 120px;
+    height: 35px;
+    text-decoration: none;
+    background-color: rgb(0, 0, 0, 0.8);
+    color: white;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    border-radius: 8px;
+    margin: 0 30px;
+}
+
+.extra{
+    width: 240px;
+}
+
+.type3:hover {
     background-color: rgb(0, 0, 0, 0.4);
     transition: ease 0.5s;
 }
@@ -65,7 +102,12 @@
 }
 
 .row2{
-    margin: 7% 8.5%;
+    margin: 7% 2.5%;
+}
+
+.link{
+    text-decoration: none;
+    color: #FF6800;
 }
 
 .inp{
@@ -79,7 +121,7 @@
 .search{
     position: relative;
     left: 4%;
-    top: 4px;
+    top: -2px;
 }
 
 .searchbtn{
@@ -108,7 +150,7 @@
 
 .row4{
     margin-top: 80px;
-    margin-left: 5%;
+    /* margin-left: 5%; */
 }
 
 .line1{
@@ -121,6 +163,10 @@
 
 .first{
     display: flex;
+}
+
+.first p{
+    margin: 15px 0;
 }
 
 .box{
@@ -164,3 +210,4 @@ select#tender1, select#properties1{
     margin-left: 2%;
     color: white;
 }
+

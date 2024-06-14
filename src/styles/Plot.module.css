@@ -1,0 +1,11 @@
+.BuyResidential{
+    display: flex;
+}
+
+.cards{
+    margin: auto;
+}
+
+.buyResCard{
+    height: 360px;
+}

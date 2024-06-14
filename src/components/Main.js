@@ -8,20 +8,60 @@ import IMG6 from '../assets/5.png'
 import IMG7 from '../assets/6.png'
 import IMG8 from '../assets/7.png'
 import IMG9 from '../assets/8.png'
+import { Link } from "react-router-dom";
+import { useState } from 'react'
 
 function Main() {
+    const [display, setDisplay]= useState('block');
+    const [display1, setDisplay1]= useState('none');
+
+    const [color, setColor]= useState('#FF6800');
+    const [color1, setColor1]= useState('white');
+    const handleClick =() =>{
+        if(display==='none'){
+            setDisplay('block');
+            setDisplay1('none');
+            setColor('#FF6800');
+            setColor1('white');
+        }
+    }
+    const handleClick1 =() =>{
+        if(display1==='none'){
+            setDisplay('none');
+            setDisplay1('block');
+            setColor1('#FF6800');
+            setColor('white');
+        }
+    }
     return(
         <div className="Main">
             <div className="row1">
-                <a className='res' href="#/">Residential</a>
+                <button onClick={handleClick} className='res'><a style={{
+                    color:color
+                }} href="#/">Residential</a></button>
                 <div className="line"></div>
-                <a className='com' href="#/">Commercial</a>
+                <button onClick={handleClick1} className='com'><a style={{
+                    color:color1
+                
+                }} href="#/">Commercial</a></button>
             </div>
-            <div className="row2">
-                <button className='type1'>Buy</button>
-                <button className='type1'>Rent</button>
-                <button className='type1'>Plot</button>
-                <button className='type2'>Post Property for Free</button>
+            <div className="row2"
+                style={{
+                    display:display
+                }}>
+                <Link to="/buyResidential" className='type3'>BuyRes</Link>
+                <Link to="/rentResidential" className='type3'>Rent</Link>
+                <Link to="/plot" className='type3'>Plot</Link>
+                <Link to="/plot" className='type3 extra'>Post Property for Free</Link>
+            </div>
+            <div className="row2"
+                 style={{
+                    display:display1
+                }}>
+                <Link to="/buyCommercial" className='type3'>Buy</Link>
+                <Link to="/rentCommercial" className='type3'>Rent</Link>
+                <Link to="/plot" className='type3'>Plot</Link>
+                <Link to="/plot" className='type3 extra'>Post Property for Free</Link>
             </div>
             <div className="row3">
                 <img className='search' src={IMG1} alt="" />
