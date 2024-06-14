@@ -1,0 +1,148 @@
+.finishlinepropmanag {
+    position: absolute;
+    width: 744.01px;
+    height: 0px;
+    left: 233px;
+    top: 992.07px;
+
+    border: 1px solid #000000;
+    transform: rotate(-0.24deg);
+}
+
+.subheadpropmanag {
+    position: absolute;
+    width: 1114px;
+    height: 13px;
+    left: 156px;
+    top: 1080px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 24%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.03em;
+
+    color: rgba(0, 0, 0, 0.42);
+}
+
+.subcontpropmanage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 18px;
+
+    position: absolute;
+    width: 364px;
+    height: 130px;
+    left: 157px;
+    top: 1177px;
+}
+
+.subcontpropmanage2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px 0px 0px;
+    gap: 13px;
+
+    position: absolute;
+    width: 341px;
+    height: 145px;
+    left: 718px;
+    top: 1162px;
+}
+
+.subcontpropmanage3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 18px;
+
+    position: absolute;
+    width: 387px;
+    height: 156px;
+    left: 152px;
+    top: 1391px;
+
+}
+
+.subcontpropmanage4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 18px;
+
+    position: absolute;
+    width: 299px;
+    height: 134px;
+    left: 739px;
+    top: 1384px;
+}
+
+.propertymanagementsectionhead {
+    width: 364px;
+    height: 11px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 114%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.03em;
+    margin-left: 35%;
+    color: #000000;
+
+}
+p{
+    margin: 2px;
+}
+
+.contentdetpropmanagement {
+    width: 364px;
+    height: 29px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 114%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: rgba(0, 0, 0, 0.42);
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.logoimgpropmanagement {
+    width: 58px;
+    height: 60px;
+}
+#header2prop 
+{
+    padding-top: 11px;
+    padding-left: 17%;
+    margin-left:35%;
+    margin-bottom: 13px;
+}
+#header3prop
+{
+    padding-left: 15%;
+}
+#header4prop
+{
+    padding-left: 48%;
+    padding-bottom: 3%;
+}

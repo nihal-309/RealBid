@@ -1,0 +1,73 @@
+.form-wrappergovernment {
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+body {
+    color: white;
+}
+.formcontainergovernment {
+    position: absolute;
+    top: 48%;
+    left: 23%;
+    transform: translate(-50%, -40%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 45%;
+}
+.inlinesectionformgovernment {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.inputdetgovernment {
+    flex: 1;
+    margin: 4%;
+}
+.inputdetgovernment input {
+    margin-left: 20%;
+    width: 100%;
+    background: #3D3D3D;
+    border: 1px solid #FFFFFF;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+}
+.phone-inputgovernment{
+    margin-top: 15px;
+    margin-left: 13%;
+}
+.phone-input-container {
+    margin-left: 0;
+    width: 70%;
+    background: #3D3D3D;
+    border: 1px solid #FFFFFF;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+}
+#querycolgovernment{
+    width: 240%;
+}
+#regaddgovernment{
+    width: 240%;
+}
+.submitgovernment {
+    position: absolute;
+    top: 90%;
+    left: 110%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 44px;
+    background: #FF6800;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#firstsection
+{
+    width: 148%;
+}

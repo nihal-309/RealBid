@@ -1,0 +1,182 @@
+body
+{
+    text-align: center;
+}
+.backgroundimagerentnowpay {
+    width: 100%;
+    position: relative;
+}
+
+.prop1imagerentnowpaylater {
+    position: absolute;
+    width: 268.82px;
+    height: 295.17px;
+    left: 1px;
+    top: 225.75px;
+}
+
+.prop1imagerentnowpaylater2 {
+    position: absolute;
+    width: 222.6px;
+    height: 230.04px;
+    left: 720.25px;
+    top: 645px;
+}
+
+.leftsectionformcontrentnowpaylater {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 393px;
+    height: 232px;
+    left: 275px;
+    top: 400px;
+}
+
+.Headerrentnowpaycont {
+    width: 393px;
+    height: 128px;
+
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.03em;
+    text-transform: capitalize;
+
+    color: #000000;
+
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.subsectionrentnowpay {
+    width: 393px;
+    height: 44px;
+
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.03em;
+    text-transform: capitalize;
+
+    color: #000000;
+}
+
+.rentnowpaylatformcontainer {
+    display: flex;
+    flex-direction: column;
+
+    padding: 0px;
+    gap: 45px;
+
+    position: absolute;
+    width: 518px;
+    height: 105%;
+    left: 728px;
+    top: 223px;
+
+    background: rgba(0, 0, 0, 0.08);
+    border-radius: 25px;
+
+}
+
+.inlinesectionformrentnowpaylat {
+    display: flex;
+    flex-direction: column;
+    padding: 18px 0px 0px;
+    gap: 5px;
+    width: 313px;
+    height: 422px;
+}
+
+.inputdetrentnow {
+    flex: 1;
+    margin: 4%;
+    margin-left: 30%;
+}
+
+.inputdetrentnow input {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    gap: 6px;
+
+    width: 313px;
+    height: 29px;
+
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    background: rgba(0, 0, 0, 0.08);
+    opacity: 0.5;
+}
+
+.finallinerentnowpaylat {
+    width: 162%;
+    height: 0px;
+    border: 1px solid #000000;
+}
+
+.secondsectionformrentnow {
+    width: 494px;
+    height: 50px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24%;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.03em;
+    text-transform: capitalize;
+
+    color: #000000;
+    margin-left: 2%;
+}
+
+.buttoncontainerrentnowpaylat {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 26px;
+
+    width: 494px;
+    height: 41px;
+}
+
+.buttonrentnowpaylat {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 20px;
+    gap: 4px;
+    margin-left: 3%;
+    color: white;
+    width: 137.33px;
+    height: 12px;
+    background: #000000;
+    border-radius: 8px;
+    cursor: pointer;
+}

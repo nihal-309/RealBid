@@ -1,0 +1,59 @@
+.faqcontainerrental5 {
+    position: absolute;
+    top: 2740px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 24px;
+    gap: 7px;
+
+    width: 596px;
+    height: 178.8px;
+
+    background: #FFFFFF;
+    border-radius: 16px;
+    margin-bottom: 5%;
+}
+
+.faqcontrental {
+    width: 548px;
+    height: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #3D3D3D;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+
+}
+
+.secondlinefaq {
+    width: 548px;
+    height: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #676767;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.finishrent {
+    width: 590px;
+    height: 0px;
+    opacity: 0.5;
+    border: 2px solid #000000;
+    transform: rotate(0.29deg);
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+}
