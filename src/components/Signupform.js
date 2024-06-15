@@ -7,7 +7,7 @@ function Signupform() {
     return (
         <div className='form-wrappergovernmentsignup'>
             <div className='formcontainergovernmentsignup'>
-                <div className='inlinesectionformgovernmentsignup' id='firstsection'>
+                <div className='inlinesectionformgovernmentsignup'>
                     <div className='inputdetgovernmentsignup'>
                         <label htmlFor='field1'>First Name</label>
                         <input type='text' />

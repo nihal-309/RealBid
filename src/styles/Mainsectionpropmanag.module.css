@@ -1,6 +1,6 @@
 body
 {
-    background-color: white;
+    background-color: #FFFFFF;
 }
 .mainsectioncont {
    
@@ -13,6 +13,10 @@ body
     background: #000000;
     border-radius: 25px;
     display: flex;
+}
+.labelpropmanag
+{
+    color: #000000;
 }
 .Formcontainerpropmang {
     position: absolute;

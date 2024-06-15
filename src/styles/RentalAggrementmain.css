@@ -11,7 +11,10 @@ body {
     height: 2909px;
     background: #D9D9D9;
 }
-
+.labelpropmanag
+{
+    color: black;
+}
 .contentholdrentalagg {
     position: absolute;
     width: 1128px;

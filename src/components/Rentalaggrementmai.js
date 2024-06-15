@@ -22,11 +22,11 @@ function Rentalaggrementmai() {
             <div className='formcontainergovernmentrentalaggrement'>
                 <div className='inlinesectionformgovernmentrentalaggrement'>
                     <div className='inputdetgovernmentrentalaggrement'>
-                    <label htmlFor='field5'>State</label>
+                    <label htmlFor='field5' className='labelpropmanag'>State</label>
                         <input type='text' />
                     </div>
                     <div className='inputdetgovernmentrentalaggrement'>
-                    <label htmlFor='field6'>City</label>
+                    <label htmlFor='field6' className='labelpropmanag'>City</label>
                         <input type='text'/>
                     </div>
                 </div>

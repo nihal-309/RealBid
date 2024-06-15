@@ -51,7 +51,7 @@ function Infoform() {
                     />
                 </div>
                 <div>
-                    <div className='submit'>Continue</div>
+                    <div className='submitpersonal'>Continue</div>
                 </div>
             </div>
         </div>

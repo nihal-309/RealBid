@@ -4,9 +4,7 @@
     height: 400px;
     margin-top: 20%;
 }
-body {
-    color: white;
-}
+
 .formcontainergovernment {
     margin-left: 20%;
     transform: translate(-50%, -40%);
@@ -65,6 +63,7 @@ body {
     background: #FF6800;
     border-radius: 8px;
     cursor: pointer;
+    color: white;
 }
 #firstsection
 {

@@ -15,23 +15,23 @@ function Maincontentrentnowpaylater() {
             <div className='rentnowpaylatformcontainer'>
                 <div className='inlinesectionformrentnowpaylat'>
                     <div className='inputdetrentnow'>
-                        <label htmlFor='field1'>Name</label>
+                        <label htmlFor='field1' className='labelrentnowpaylat'>Name</label>
                         <input type='text' />
                     </div>
                     <div className='inputdetrentnow'>
-                        <label htmlFor='field2'>Phone No.</label>
+                        <label htmlFor='field2' className='labelrentnowpaylat'>Phone No.</label>
                         <input type='text' />
                     </div>
                     <div className='inputdetrentnow'>
-                        <label htmlFor='field2'>Pan card</label>
+                        <label htmlFor='field2' className='labelrentnowpaylat'>Pan card</label>
                         <input type='text' />
                     </div>
                     <div className='inputdetrentnow'>
-                        <label htmlFor='field2'>Date Of Birth</label>
+                        <label htmlFor='field2' className='labelrentnowpaylat'>Date Of Birth</label>
                         <input type='text' />
                     </div>
                     <div className='inputdetrentnow'>
-                        <label htmlFor='field2'>Pincode</label>
+                        <label htmlFor='field2' className='labelrentnowpaylat'>Pincode</label>
                         <input type='text' />
                     </div>
                     <div className='finallinerentnowpaylat'></div>

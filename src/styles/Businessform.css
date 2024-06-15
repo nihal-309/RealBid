@@ -3,9 +3,6 @@
     height: 400px;
     margin-left: 20%;
 }
-body {
-    color: white;
-}
 .formcontainerbusiness {
     margin-top: 20%;
     transform: translate(-50%, -40%);
@@ -64,6 +61,7 @@ body {
     background: #FF6800;
     border-radius: 8px;
     cursor: pointer;
+    color: white;
 }
 #firstsection
 {

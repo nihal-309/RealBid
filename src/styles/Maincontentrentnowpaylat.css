@@ -6,7 +6,10 @@ body
     width: 100%;
     position: relative;
 }
-
+.labelrentnowpaylat 
+{
+    color: #000000;
+}
 .prop1imagerentnowpaylater {
     position: absolute;
     width: 268.82px;
