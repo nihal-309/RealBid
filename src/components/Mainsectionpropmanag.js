@@ -5,24 +5,24 @@ function Mainsectionpropmanag() {
     return (
         <div className='mainsectioncont'>
             <div className='Formcontainerpropmang'>
-                <div className='inlinesectionformrentnowpaylat'>
-                    <div className='inputdetrentnow'>
+                <div className='inlinesectionformpropmang'>
+                    <div className='inputdetrentnowpropmang'>
                         <label htmlFor='field1'>Full Name</label>
                         <input type='text' />
                     </div>
-                    <div className='inputdetrentnow'>
+                    <div className='inputdetrentnowpropmang'>
                         <label htmlFor='field2'>Phone No.</label>
                         <input type='text' />
                     </div>
-                    <div className='inputdetrentnow'>
+                    <div className='inputdetrentnowpropmang'>
                         <label htmlFor='field2'>Email Id</label>
                         <input type='text' />
                     </div>
-                    <div className='inputdetrentnow'>
+                    <div className='inputdetrentnowpropmang'>
                         <label htmlFor='field2'>City</label>
                         <input type='text' />
                     </div>
-                    <div className='inputdetrentnow'>
+                    <div className='inputdetrentnowpropmang'>
                         <label htmlFor='field2'>House Configuration</label>
                         <div className='buttoncontainerpropmanag'>
                             <div className='buttonspropmanag'>1 BHK</div>
@@ -32,16 +32,16 @@ function Mainsectionpropmanag() {
                             <div className='buttonspropmanag'>Other</div>
                         </div>
                     </div>
-                    <div className='inputdetrentnow'>
+                    <div className='inputdetrentnowpropmang'>
                         <label htmlFor='field2'>Expected Rent</label>
                         <input type='text' />
                     </div>
-                    <div className='inputdetrentnow'>
+                    <div className='inputdetrentnowpropmang'>
                         <label htmlFor='field2'>Any Special Request</label>
                         <input type='text' />
                     </div>
                     <div>
-                        <div className='submit'>Submit</div>
+                        <div className='submitpropmanag'>Submit</div>
                     </div>
                 </div>
             </div>

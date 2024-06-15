@@ -1,7 +1,6 @@
 .formselection {
-    width: 212.87px;
+    width: 232.87px;
     height: 32.02px;
-    left: 128.99px;
     background-color: rgba(88, 87, 90, 0.933333);
     font-family: 'Arial';
     font-style: normal;
@@ -15,15 +14,15 @@
     text-transform: capitalize;
     color: #FFFFFF;
     border-radius: 10px;
+    padding-top: 2%;
 }
 .formoption {
-    position: absolute;
+   
     display: flex;
     z-index: 1;/*because position absolute krnae sae button dispose ho jata tha z index 1 krkae unko upar lae*/
     width: 727.14px;
     height: 45px;
-    left: 54px;
-    top: 28%;
+    margin-left: 15px;
 }
 .inputform
 {

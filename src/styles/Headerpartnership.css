@@ -32,8 +32,11 @@
 }
 
 .mainpartner {
-    position: absolute;
-    width: 1135px;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    width: 90%;
     height: 110%;
     left: 5%;
     top: 15%;

@@ -1,98 +1,30 @@
-/*.mainsectioncont {
-    position: absolute;
-    width: 1120px;
-    height: 760px;
-    left: 56px;
-    top: 163px;
-    background: #000000;
-    border-radius: 25px;
-    display: flex;
-    gap: 15%;
+body
+{
+    background-color: white;
 }
-
-.Formcontainerpropmang {
+.mainsectioncont {
+   
+    width: 90%;
+    height: 710px;
     margin-top: 5%;
     margin-left: 5%;
-    width: 93%;
-    background: #FFFFFF;
-    border-radius: 25px;
-}
-
-.maincontpropmanag {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 45px;
-
-    height: 205px;
-    margin-top: 20%;
-}
-
-.imagepropmanag {
-    width: 199px;
-    height: 596px;
-    margin-top: 40%;
-}
-
-.propmanagcontheader {
-    justify-content: center;
-    width: 410px;
-    height: 135px;
-
-    font-family: 'Outfit';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 45px;
-    line-height: 100%;
-    display: flex;
-    align-items: center;
-    letter-spacing: -0.03em;
-    text-transform: capitalize;
-
-    color: #FFFFFF;
-
-}
-
-.propmanagcontent {
-    justify-content: center;
-    width: 410px;
-    height: 95px;
-    font-family: 'Outfit';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 121%;
-    display: flex;
-    align-items: center;
-    letter-spacing: -0.03em;
-    text-transform: capitalize;
-
-    color: #FFFFFF;
-}*/
-.mainsectioncont {
-    position: absolute;
-    width: 1120px;
-    height: 760px;
-    left: 56px;
-    top: 163px;
+    margin-right: 5%;
+    margin-bottom: 5%;
     background: #000000;
     border-radius: 25px;
     display: flex;
-    gap: 15%;
 }
-
 .Formcontainerpropmang {
     position: absolute;
     width: 442px;
-    height: 692px;
-    left: 47px;
-    top: 47px;
+    height: 652px;
+    left: 100px;
+    top: 191px;
     background: #FFFFFF;
     border-radius: 25px;
 }
 
-.inlinesectionformrentnowpaylat {
+.inlinesectionformpropmang {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -102,10 +34,10 @@
     position: absolute;
     width: 316px;
     height: 588px;
-    top: 57px;
+    top: 37px;
 }
 
-.inputdetrentnow {
+.inputdetrentnowpropmang {
     width: 316px;
     height: 53px;
     flex: none;
@@ -115,7 +47,7 @@
     margin-left: 15%;
 }
 
-.inputdetrentnow input {
+.inputdetrentnowpropmang input {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -144,8 +76,8 @@
     position: absolute;
     width: 410px;
     height: 275px;
-    left: 525px;
-    top: 163px;
+    left: 595px;
+    top: 323px;
     color: white;
 }
 
@@ -153,9 +85,9 @@
 
     position: absolute;
     width: 199px;
-    height: 596px;
-    left: 921px;
-    top: 46px;
+    height: 556px;
+    left: 1000px;
+    top: 276px;
 }
 
 .propmanagcontheader {
@@ -202,7 +134,7 @@
     order: 0;
     flex-grow: 1;
 }
-.submit {
+.submitpropmanag {
     display: flex;
     flex-direction: row;
     justify-content: center;

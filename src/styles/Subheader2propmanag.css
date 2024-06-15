@@ -1,21 +1,20 @@
 .finishlinepropmanag {
-    position: absolute;
-    width: 744.01px;
+   
+    width: 844.01px;
     height: 0px;
     left: 233px;
     top: 992.07px;
-
+    margin-left: 16%;
     border: 1px solid #000000;
     transform: rotate(-0.24deg);
 }
-
 .subheadpropmanag {
-    position: absolute;
-    width: 1114px;
+    
+    width: 100%;
     height: 13px;
-    left: 156px;
-    top: 1080px;
-
+    margin-top: 8%;
+    margin-left: 12%;
+    padding-left: 3%;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -25,22 +24,25 @@
     align-items: center;
     text-align: center;
     letter-spacing: -0.03em;
-
     color: rgba(0, 0, 0, 0.42);
 }
-
+.finalcontpropmanag
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20%;
+   
+}
 .subcontpropmanage {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0px;
     gap: 18px;
-
-    position: absolute;
+    margin-top: 10%;
+    margin-bottom: 10%;
     width: 364px;
     height: 130px;
-    left: 157px;
-    top: 1177px;
 }
 
 .subcontpropmanage2 {
@@ -49,8 +51,8 @@
     align-items: center;
     padding: 12px 0px 0px;
     gap: 13px;
-
-    position: absolute;
+    margin-top: 8%;
+    margin-bottom: 10%;
     width: 341px;
     height: 145px;
     left: 718px;
@@ -64,7 +66,7 @@
     padding: 0px;
     gap: 18px;
 
-    position: absolute;
+    margin-bottom: 10%;
     width: 387px;
     height: 156px;
     left: 152px;
@@ -77,9 +79,10 @@
     flex-direction: column;
     align-items: center;
     padding: 0px;
+    margin-left: 5%;
+    margin-right: 2%;
     gap: 18px;
-
-    position: absolute;
+    margin-bottom: 10%;
     width: 299px;
     height: 134px;
     left: 739px;

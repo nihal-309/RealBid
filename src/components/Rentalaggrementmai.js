@@ -18,20 +18,20 @@ function Rentalaggrementmai() {
         </div>
         <div className='rightsectionrental'>
           <img src={logoform} alt='' className='imagerental'></img>
-          <div className='form-wrappergovernment'>
-            <div className='formcontainergovernment'>
-                <div className='inlinesectionformgovernment'>
-                    <div className='inputdetgovernment'>
+          <div className='form-wrappergovernmentrentalaggrement'>
+            <div className='formcontainergovernmentrentalaggrement'>
+                <div className='inlinesectionformgovernmentrentalaggrement'>
+                    <div className='inputdetgovernmentrentalaggrement'>
                     <label htmlFor='field5'>State</label>
                         <input type='text' />
                     </div>
-                    <div className='inputdetgovernment'>
+                    <div className='inputdetgovernmentrentalaggrement'>
                     <label htmlFor='field6'>City</label>
                         <input type='text'/>
                     </div>
                 </div>
                 <div>
-                    <div className='submitgovernment'>Check Price of Rental Agreement</div>
+                    <div className='submitgovernmentrentalaggrement'>Check Price of Rental Agreement</div>
                 </div>
             </div>
         </div>
