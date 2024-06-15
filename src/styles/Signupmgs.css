@@ -17,8 +17,9 @@
     align-items: center;
     letter-spacing: -0.03em;
     text-transform: capitalize;
-
+    text-align: left;
     color: #FFFF;
+    margin-top: 1%;
 }
 .congsignup {
     margin-left: 5%;
@@ -32,4 +33,8 @@
     letter-spacing: -0.03em;
     text-transform: capitalize;
     color: #FF6800;
+}
+.signupcont
+{
+    margin-top: 3%;
 }

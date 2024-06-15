@@ -1,39 +1,43 @@
 .form-wrappersignupcompany {
-    position: relative;
-    width: 100%;
-    height: 400px;
-    margin-left: 7%;
+    display: flex;
+    justify-content: center; 
+    margin: 0 auto;
 }
 
 body {
     color: white;
+    height: fit-content;
+    background-color: #282828; 
 }
 
 .formcontainersignupcompany {
-    position: absolute;
-    top: 48%;
-    left: 23%;
-    transform: translate(-50%, -40%);
+    margin-top: 10%; 
+    width: 50%;
+    transform: translateY(-10%); 
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    width: 45%;
 }
 
 .inlinesectionformsignupcompany {
     display: flex;
     justify-content: space-between;
-    gap: 10px;
+    width: 100%;
+    margin-bottom: 20px; 
 }
 
 .inputdetsignupcompany {
     flex: 1;
-    margin: 4%;
+    margin: 0 40px; 
+}
+
+.inputdetsignupcompany label {
+    display: block;
+    margin-bottom: 5px; 
 }
 
 .inputdetsignupcompany input {
-    margin-left: 20%;
     width: 100%;
     background: #3D3D3D;
     border: 1px solid #FFFFFF;
@@ -43,13 +47,12 @@ body {
 }
 
 .phone-inputsignupcompany {
-    margin-top: 15px;
-    margin-left: 13%;
+    margin: 25px 20px;
+    margin-left: 80px;
 }
 
 .phone-input-containersignupcomp {
-    margin-left: 0;
-    width: 70%;
+    width: 80%;
     background: #3D3D3D;
     border: 1px solid #FFFFFF;
     color: white;
@@ -58,23 +61,22 @@ body {
 }
 
 #querycolsignupcompany {
-    width: 180%;
+    width: 100%; 
 }
 
 #regaddsignupcompany {
-    width: 220%;
+    width: 100%; 
 }
 
 .submitsignupcompany {
-    position: absolute;
-    top: 90%;
-    left: 110%;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
+    width: 65%;
     height: 44px;
     background: #FF6800;
     border-radius: 8px;
     cursor: pointer;
+    margin-top: 20px;
+    margin-left: 20%;
 }
