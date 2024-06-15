@@ -4,16 +4,19 @@ import ErrorPage from './pages/Error';
 import RentResidential from './pages/RentResidential';
 import RentCommercial from './pages/RentCommercial';
 import Plot from './pages/Plot';
-import Home from './pages/HomePage';
 import BuyResidential from './pages/BuyResidential';
 import BuyCommercial from './pages/BuyCommercial';
+import RentNowPayLater from './pages/RentNowPayLater';
+import Signup from './pages/Signup';
+import RentalAgreement from './pages/RentalAgreement';
+import PropertyManagement from './pages/PropertyManagement';
+import Partnership from './pages/Partnership';
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Layout from './Layout';
 import { animateScroll as scroll } from 'react-scroll';
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import Signup from './pages/Signup';
 
 function App(){
   const ScrollToTop = () => {
@@ -30,7 +33,7 @@ function App(){
     <ScrollToTop />
     <Routes>
       <Route path="/" element={
-        <Layout headerComponent={Home.extraHeaderComponent}>
+        <Layout headerComponent={HomePage.extraHeaderComponent}>
           <HomePage />
         </Layout>
       } exact />
@@ -69,7 +72,28 @@ function App(){
           <Signup />
         </Layout>
         } />
-    </Routes>
+        <Route path="/rentNowPayLater" element={
+        <Layout headerComponent={HomePage.extraHeaderComponent}>
+          <RentNowPayLater />
+        </Layout>
+        } />
+        <Route path="/rentalAgreement" element={
+        <Layout headerComponent={HomePage.extraHeaderComponent}>
+          <RentalAgreement />
+        </Layout>
+        } />
+        <Route path="/propertyManagement" element={
+        <Layout >
+          <PropertyManagement />
+        </Layout>
+        } />
+        <Route path="/partnership" element={
+        <Layout >
+          <Partnership />
+        </Layout>
+        } />
+
+    </Routes> 
   </Router>
  )
 };

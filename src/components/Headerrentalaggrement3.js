@@ -5,8 +5,7 @@ import Faqrental2 from './Faqrental2'
 import Faqrental3 from './Faqrental3'
 import Faqrental4 from './Faqrental4'
 import Faqrental5 from './Faqrental5'
-import Footer from './footer'
-function Headerrentalaggrement3() {
+ function Headerrentalaggrement3() {
     return (
         <div className='header3container'>
             <div className='thirdheaderrentalagg'>
@@ -20,7 +19,6 @@ function Headerrentalaggrement3() {
                 <Faqrental4/>
                 <Faqrental5/>
             </div>
-            <Footer/>
         </div>
     )
 }

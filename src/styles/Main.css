@@ -211,3 +211,7 @@ select#tender1, select#properties1{
     color: white;
 }
 
+.box a{
+    text-decoration: none;
+    color: white;
+}

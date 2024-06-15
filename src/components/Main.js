@@ -87,7 +87,7 @@ function Main() {
                 <div className="first">
                     <div className="box">
                         <img src={IMG2} alt="" />
-                        <p>Rental Agreement</p>
+                        <Link to="/rentalAgreement "><p>Rental Agreement</p></Link>
                     </div>
                     <div className="box">
                         <img src={IMG3} alt="" />
@@ -95,7 +95,7 @@ function Main() {
                     </div>
                     <div className="box">
                         <img src={IMG4} alt="" />
-                        <p>Rent Now Pay Later</p>
+                        <Link to="/rentNowPaylater"><p>Rent Now Pay Later</p></Link>
                     </div>
                     <div className="box">
                         <img src={IMG5} alt="" />

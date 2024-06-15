@@ -7,6 +7,7 @@ import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import IMG1 from '../assets/hamburger.png';
 import IMG2 from '../assets/profile.png';
+import { Link } from 'react-router-dom';
 
 Modal.setAppElement('#root');
 
@@ -42,7 +43,7 @@ function Header2(){
                 <option value="Properties for auction">Properties for auction</option>
             </select>
             <button onClick={openLogin} className={styles.login}>Login</button>
-            <button className={styles.reg}>Register</button>
+            <Link to="/signup"><button className={styles.reg}>Register</button></Link>
 
             <Modal
                 isOpen={otpIsOpen}

@@ -9,17 +9,14 @@ import Articlecoursel from '../components/Articlecoursel';
 const extraHeaderComponent = <Header />;
 function Home(){
     return(
-        <>
-            {/* {extraHeaderComponent} */}
-            <div className="App">
-                <Hero />
-                <Main />
-                <Click />
-                <Partner />
-                <Coursel />
-                <Articlecoursel />
-            </div>
-        </>    
+        <div className="App">
+            <Hero />
+            <Main />
+            <Click />
+            <Partner />
+            <Coursel />
+            <Articlecoursel />
+        </div>
     );
 }
 

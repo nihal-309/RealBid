@@ -1,4 +1,5 @@
 import '../styles/Partner.css'
+import { Link } from 'react-router-dom';
 
 function Partner() {
     return(
@@ -14,7 +15,7 @@ function Partner() {
                 <p>
                     At RealBid, we don't just facilitate business transactions; we also generate opportunities for our partners.
                 </p>
-                <button>Lets Talk</button>
+                <Link to="/partnership "><button>Lets Talk</button></Link>
             </div>
             <h1 className='sitee'>RealBid.Com</h1>
         </div>
