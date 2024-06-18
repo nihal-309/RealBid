@@ -4,7 +4,13 @@ body {
     height: fit-content;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
+.error {
+    color: red;
+    font-size: 12px;
+    display: block; /* Ensures the message is on its own line */
+    white-space: nowrap; /* Prevents the text from wrapping */
+  }
+  
 .holderrentalaggrement {
     position: relative;
     width: 100%;
