@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.ownerDetails{
+    padding: 35px 100px;
+    font-family: 'Outfit';
+    /* background-color: white; */
+}
+
+.auction{
+    width: 151px;
+    height: 35px;
+    color: black;
+    pointer-events: none;
+    border: 1px solid black ;
+    border-radius: 21px;
+    background-color: white;
+}
+
+.address{
+    margin: 30px 0;
+}
+
+.heroImg{
+    width: 715px;
+    height: 423px;
+}
+
+.firstCont{
+    display: flex;
+}
+
+.askingPrice{
+    margin-left: 50px;
+    margin-top: 120px;
+}
+
+.line{
+    display: flex;
+    justify-content: space-between;
+    width: 456px;
+}
+
+.line p{
+    margin: 0;
+}
+
+.linee{
+    width: 456px;
+    border-top: 1px solid black;
+    margin: 15px 0;
+}
+
+.buttons button{
+    background-color: #FF6800;
+    width: 189px;
+    height: 49px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.askingPrice h4{
+    margin-bottom: 40px;
+}
+
+.askingPrice span{
+    font-weight: 700;
+}
+
+.heading{
+    color: #FF6800;
+    margin: 50px 0;
+}
+
+.infoFirst, .infoSec{
+    /* border-right: 1px solid black; */
+    margin-right: 55px;
+    font-size: 17px;
+}
+
+.row img{
+    margin-right: 5px;
+}
+
+.infoThird{
+    font-size: 17px;
+    margin-right: 110px;
+}
+
+.flexCont{
+    display: flex;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.row p{
+    margin: 0;
+}
+
+
+.secondCont{
+    display: flex;
+}
+
+.row1{
+    margin-top: 50px;
+}
+
+.linee1{
+    border-left: 1px solid black;
+    height: 300px;
+    margin: 110px 120px 0 50px;
+}
+
+.row span{
+    font-weight: 700;
+}
+
+.rowHead{
+    color: gray;
+    font-size: 20px;
+}
+
+.box{
+    text-align: center;
+}
+
+.box p{
+    width: 208px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.thirdCont .flexCont{
+    justify-content: space-between;
+}
+
+.thirdCont .heading{
+    margin: 50px 0;
+}
+
+.box img{
+    margin-bottom: 20px;
+}
+
+.fourthCont .linee1{
+    margin: 0 20px;
+    height: 420px;
+}
+
+.fourthCont .flexCont{
+    align-items: center;
+}
+
+.fourthCont img{
+    width: 540px;
+    height: 400px;
+}
+
+.fifthCont .box{
+    display: block;
+    margin: auto;
+}
+
+.box1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box1 img{
+    display: block;
+    margin: auto;
+}
+
+.fifthCont .flexCont{
+    justify-content: space-between;
+}
+
+.sixthCont p{
+    margin: 0 0 40px 0;
+}

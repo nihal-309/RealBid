@@ -6,11 +6,11 @@ function Filter({ className, first }) {
         <h3 className={styles.head}>Filters</h3>
         <div className={`${styles.propType} ${first}`}>
             <h3>Property Type</h3>
-            <div>
+            <div className={styles.inpLabel}>
                 <input type="checkbox" id="house" name="house" />
                 <label htmlFor="house">Auction Property</label>
             </div>
-            <div>
+            <div className={styles.inpLabel}>
                 <input type="checkbox" id="apartment" name="apartment" />
                 <label htmlFor="apartment">Without Auction Property</label>
             </div>

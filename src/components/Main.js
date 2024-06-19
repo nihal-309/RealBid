@@ -49,7 +49,7 @@ function Main() {
                 style={{
                     display:display
                 }}>
-                <Link to="/buyResidential" className='type3'>BuyRes</Link>
+                <Link to="/buyResidential" className='type3'>Buy</Link>
                 <Link to="/rentResidential" className='type3'>Rent</Link>
                 <Link to="/plot" className='type3'>Plot</Link>
                 <Link to="/plot" className='type3 extra'>Post Property for Free</Link>

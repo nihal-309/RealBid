@@ -1,5 +1,5 @@
 .filters{
-    width: 324px;
+    width: 304px;
     max-height: 90vh;
     background-color: white;
     padding: 30px 15px;
@@ -50,4 +50,8 @@
     border: none;
     border-radius: 8px;
     margin: 8px auto;
+}
+
+.inpLabel label{
+    color: black !important;
 }

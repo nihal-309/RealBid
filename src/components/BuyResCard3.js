@@ -12,6 +12,7 @@ import IMG11 from '../assets/furnish.png';
 import IMG12 from '../assets/bids.png'
 import IMG13 from '../assets/time.png';
 import IMG14 from '../assets/arrow.png';
+import IMG15 from '../assets/available.png';
 
 function buyResCard(props){
     const { auctions } = props;
@@ -55,7 +56,7 @@ function buyResCard(props){
                             <p>Facing : {props.facing}</p>
                         </div>
                         <div className={`${styles.row} ${styles.row1}`}>
-                            <img src={IMG6} alt="" />
+                            <img src={IMG15} alt="" />
                             <p className={styles.avail}>Availablity : {props.availablity}</p>
                         </div>
                     </div>

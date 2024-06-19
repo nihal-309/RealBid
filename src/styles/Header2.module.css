@@ -1,5 +1,5 @@
 .Header2{
-    height: 108px;
+    height: 68px;
     background-color: #3D3D3D;
     align-items: center;
     display: flex;
@@ -11,13 +11,14 @@ select#tender, select#properties{
     background-color: #3D3D3D;
     color: white;
     font-weight: 600;
+    font-size: 15px;
     margin: 0 20px;
 }
 
 .login{
     background-color: rgb(0, 0, 0);
-    width: 122px;
-    height: 48px;
+    width: 102px;
+    height: 38px;
     color: white;
     cursor: pointer;
     border: none;
@@ -32,8 +33,8 @@ select#tender, select#properties{
 
 .reg{
     background-color: #FF6800;
-    width: 122px;
-    height: 48px;
+    width: 102px;
+    height: 38px;
     color: white;
     cursor: pointer;
     border: none;
@@ -74,8 +75,8 @@ select#tender, select#properties{
 }
 
 .hamburg{
-    width: 40px;
-    height: 50px;
+    width: 30px;
+    height: 40px;
     align-items: center;
     position: relative;
     bottom: 10px;
@@ -96,7 +97,7 @@ select#tender, select#properties{
 :global(.dropdown-menu[data-bs-popper]) {
     bottom: 10px !important;
     top: 0px !important;
-    left: -150px !important;
+    left: -160px !important;
 }
 
 :global(.dropdown-item) {
@@ -110,12 +111,18 @@ select#tender, select#properties{
     right: 100px !important;
 }
 
+.profile{
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+}
+
 :global(.profile) {
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 :global(.nav-item) {
-    width: 60px !important;
+    width: 40px !important;
 }
 
 :global(.dropdown-item:hover) {

@@ -1,5 +1,5 @@
 .filters{
-    width: 324px;
+    width: 304px;
     max-height: 90vh;
     background-color: white;
     padding: 30px 15px;
@@ -11,6 +11,7 @@
 
 .propType label{
     margin-left: 10px;
+    color: black;
 }
 
 .propType{

@@ -11,6 +11,7 @@ import Signup from './pages/Signup';
 import RentalAgreement from './pages/RentalAgreement';
 import PropertyManagement from './pages/PropertyManagement';
 import Partnership from './pages/Partnership';
+import GetOwnerDetails from './pages/GetOwnerDetails';
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Layout from './Layout';
@@ -90,6 +91,11 @@ function App(){
         <Route path="/partnership" element={
         <Layout >
           <Partnership />
+        </Layout>
+        } />
+        <Route path="/getOwnerDetails" element={
+        <Layout>
+          <GetOwnerDetails />
         </Layout>
         } />
 
