@@ -10,19 +10,19 @@ function Partnership({ selectedForm, setSelectedForm }) {
             <div className='formselection'>
                 <input type='radio' id='personal' name='partnership' className='inputform' value="personal" checked={selectedForm === 'personal'}
                     onChange={handleRadioChange} />
-                <p htmlFor='personal'>Personal</p>
+                <p htmlFor='personal' className='formlabelpartnership'>Personal</p>
             </div>
             <div className='formselection'>
                 <input type='radio' id='business' name='partnership' className='inputform' value="business"
                     checked={selectedForm === 'business'}
                     onChange={handleRadioChange}/>
-                <p htmlFor='business'>Business</p>
+                <p htmlFor='business' className='formlabelpartnership'>Business</p>
             </div>
             <div className='formselection'>
                 <input type='radio' id='government' name='partnership' className='inputform' value="government"
                     checked={selectedForm === 'government'}
                     onChange={handleRadioChange}/>
-                <p htmlFor='government'>Government</p>
+                <p htmlFor='government'  className='formlabelpartnership'>Government</p>
             </div>
         </div>
     );

@@ -4,7 +4,6 @@ import 'react-phone-input-2/lib/style.css';
 import PhoneInput from 'react-phone-input-2';
 
 function Infoform() {
-    // State for form fields
     const [formData, setFormData] = useState({
         firstName: '',
         nationality: '',
@@ -14,11 +13,7 @@ function Infoform() {
         query: '',
         phone: ''
     });
-
-    // State for validation errors
     const [errors, setErrors] = useState({});
-
-    // Handle input change
     const handleChange = (e) => {
         const { name, value } = e.target;
         setFormData({
@@ -26,13 +21,9 @@ function Infoform() {
             [name]: value
         });
     };
-
-    // Validate form fields
     const validateForm = () => {
         let newErrors = {};
         let isValid = true;
-
-        // Check if any field is empty
         for (let key in formData) {
             if (!formData[key]) {
                 isValid = false;
@@ -43,17 +34,13 @@ function Infoform() {
         setErrors(newErrors);
         return isValid;
     };
-
-    // Handle form submission
     const handleSubmit = () => {
         if (validateForm()) {
-            // Form is valid, proceed with form submission
             console.log('Form submitted:', formData);
         } else {
             console.log('Form has errors:', errors);
         }
     };
-
     return (
         <div className='form-wrapper'>
             <div className='formcontainer'>

@@ -15,7 +15,6 @@
     align-items: center;
     letter-spacing: -0.03em;
     text-transform: capitalize;
-    color: #FFFFFF;
 }
 .rightaltext {
     margin-right: 5%;
@@ -37,9 +36,9 @@
     margin-right: 5%;
     margin-bottom: 5%;
     width: 90%;
-    height: 110%;
+    height: 100%;
     left: 5%;
     top: 15%;
-    background: #3D3D3D;
+    background: #F2F2F2;
     border-radius: 15px;
 }
