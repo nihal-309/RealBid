@@ -12,6 +12,7 @@ import RentalAgreement from './pages/RentalAgreement';
 import PropertyManagement from './pages/PropertyManagement';
 import Partnership from './pages/Partnership';
 import GetOwnerDetails from './pages/GetOwnerDetails';
+import StartAuction from './pages/StartAuction';
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Layout from './Layout';
@@ -98,7 +99,11 @@ function App(){
           <GetOwnerDetails />
         </Layout>
         } />
-
+        <Route path="/startAuction" element={
+        <Layout>
+          <StartAuction />
+        </Layout>
+        } />
     </Routes> 
   </Router>
  )

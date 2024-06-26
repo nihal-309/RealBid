@@ -26,6 +26,7 @@ function RentResidential() {
                 auctions={styles.auction}
                 add={styles.adress}
                 hide={styles.hide}
+                link="/getOwnerDetails"
                 furnish="Semi"
                 button="Get Owner Details"
             />
@@ -48,6 +49,7 @@ function RentResidential() {
                 auctions={styles.auction}
                 add={styles.adress}
                 hide={styles.hide}
+                link="/getOwnerDetails"
                 furnish="Semi"
                 button="Get Owner Details"
             />
@@ -70,6 +72,7 @@ function RentResidential() {
                 auctions={styles.auction}
                 add={styles.adress}
                 hide={styles.hide}
+                link="/getOwnerDetails"
                 furnish="Semi"
                 button="Get Owner Details"
             />
@@ -92,6 +95,7 @@ function RentResidential() {
                 auctions={styles.auction}
                 add={styles.adress}
                 hide={styles.hide}
+                link="/getOwnerDetails"
                 furnish="Semi"
                 button="Get Owner Details"
             />
@@ -114,6 +118,7 @@ function RentResidential() {
                 auctions={styles.auction}
                 add={styles.adress}
                 hide={styles.hide}
+                link="/getOwnerDetails"
                 furnish="Semi"
                 button="Get Owner Details"
             />

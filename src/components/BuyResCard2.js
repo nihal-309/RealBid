@@ -11,6 +11,7 @@ import IMG10 from '../assets/tick.png';
 import IMG11 from '../assets/furnish.png';
 import IMG12 from '../assets/bids.png'
 import IMG13 from '../assets/time.png';
+import { Link } from 'react-router-dom';
 
 function buyResCard(props){
     const { auctions } = props;
@@ -95,6 +96,7 @@ function buyResCard(props){
                         </div>
                     </div>
                 </div>
+                <div className={styles.linee}></div>
                 <div className={styles.price}>
                     <h5>&#8377; {props.finalPrice}</h5>
                     <div className={`${styles.end} ${hide}`}>
@@ -107,7 +109,7 @@ function buyResCard(props){
                         <h6>Time Left</h6>
                         <p>09:45m</p>
                     </div>
-                    <button>{props.button}</button>
+                    <Link className={styles.link} to={props.link}>{props.button}</Link>
                 </div>
             </div>
         </div>
