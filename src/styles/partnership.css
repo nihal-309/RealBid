@@ -1,7 +1,6 @@
 .formselection {
     width: 232.87px;
     height: 32.02px;
-    background: #D9D9D9;
     font-family: 'Arial';
     font-style: normal;
     font-weight: 700;
@@ -39,4 +38,8 @@
 body
 {
     background-color: black;
+}
+.selected
+{
+    color: black;
 }

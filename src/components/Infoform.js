@@ -46,7 +46,7 @@ function Infoform() {
             <div className='formcontainer'>
                 <div className='inlinesectionform'>
                     <div className='inputdet'>
-                        <label htmlFor='firstName'>First Name</label>
+                        <label htmlFor='firstName' className='infoformfirst'>First Name</label>
                         <input
                             type='text'
                             id='firstName'
@@ -57,7 +57,7 @@ function Infoform() {
                         {errors.firstName && <span className='error'>{errors.firstName}</span>}
                     </div>
                     <div className='inputdet'>
-                        <label htmlFor='nationality'>Nationality</label>
+                        <label htmlFor='nationality' className='infoformfirst'>Nationality</label>
                         <input
                             type='text'
                             id='nationality'
@@ -70,7 +70,7 @@ function Infoform() {
                 </div>
                 <div className='inlinesectionform'>
                     <div className='inputdet'>
-                        <label htmlFor='lastName'>Last Name</label>
+                        <label htmlFor='lastName' className='infoformfirst'>Last Name</label>
                         <input
                             type='text'
                             id='lastName'
@@ -81,7 +81,7 @@ function Infoform() {
                         {errors.lastName && <span className='error'>{errors.lastName}</span>}
                     </div>
                     <div className='inputdet'>
-                        <label htmlFor='registeredAddress'>Registered Address</label>
+                        <label htmlFor='registeredAddress' id='reegaddinfoform'>Registered Address</label>
                         <input
                             type='text'
                             id='registeredAddress'
@@ -94,7 +94,7 @@ function Infoform() {
                 </div>
                 <div className='inlinesectionform'>
                     <div className='inputdet'>
-                        <label htmlFor='email'>Email ID</label>
+                        <label htmlFor='email'  id='emailidaddinfoform'>Email ID</label>
                         <input
                             type='text'
                             id='email'
@@ -105,7 +105,7 @@ function Infoform() {
                         {errors.email && <span className='error'>{errors.email}</span>}
                     </div>
                     <div className='inputdet'>
-                        <label htmlFor='query'>Your Query</label>
+                        <label htmlFor='query' className='infoformfirst'>Your Query</label>
                         <input
                             type='text'
                             id='query'
@@ -117,7 +117,7 @@ function Infoform() {
                     </div>
                 </div>
                 <div className='phone-input'>
-                    <label htmlFor='phone'>Mobile No.</label>
+                    <label htmlFor='phone' id='phoneinfoform'>Mobile No.</label>
                     <PhoneInput
                         country={'in'}
                         value={formData.phone}

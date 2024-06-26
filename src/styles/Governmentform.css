@@ -1,12 +1,10 @@
-.form-wrappergovernment {
-    
+.form-wrapperbusiness {
     width: 100%;
     height: 400px;
-    margin-top: 20%;
-}
-
-.formcontainergovernment {
     margin-left: 20%;
+}
+.formcontainerbusiness {
+    margin-top: 20%;
     transform: translate(-50%, -40%);
     display: flex;
     flex-direction: column;
@@ -14,19 +12,19 @@
     text-align: center;
     width: 45%;
 }
-.inlinesectionformgovernment {
+.inlinesectionformbusiness {
     display: flex;
     justify-content: space-between;
     gap: 10px;
 }
-.inlinesectionformgovernment label {
+.inlinesectionformbusiness label {
     color: rgba(61, 61, 61, 0.5);
 }
-.inputdetgovernment {
+.inputdetbusiness {
     flex: 1;
     margin: 4%;
 }
-.inputdetgovernment input {
+.inputdetbusiness input {
     margin-left: 20%;
     width: 100%;
     background: #F2F2F2;
@@ -36,7 +34,7 @@
     border-radius: 8px;
     padding: 10px;
 }
-.phone-inputgovernment{
+.phone-inputbusiness {
     margin-top: 15px;
     margin-left: 13%;
 }
@@ -49,13 +47,13 @@
     border-radius: 8px;
     padding: 10px;
 }
-#querycolgovernment{
+#querycolbusiness{
     width: 240%;
 }
-#regaddgovernment{
+#regaddbusiness {
     width: 240%;
 }
-.submitgovernment {
+.submitbusiness {
     position: absolute;
     top: 90%;
     left: 110%;
@@ -72,4 +70,25 @@
 #firstsection
 {
     width: 148%;
+}
+.Buisnessfirst
+{
+    margin-right: 15%;
+}
+#comapanybusiness
+{
+    margin-left: 4%;
+}
+#companyaddbusiness
+{
+    margin-left: 4%;
+}
+#emailidbusiness
+{
+    margin-right: 28%;
+}
+#mobnobusiness
+{
+    color: rgba(61, 61, 61, 0.5);
+    margin-right: 82%;
 }

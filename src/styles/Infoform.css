@@ -5,17 +5,11 @@
     margin-left: 20%;
 }
 
-body {
-    color: black;
-}
-
 .formcontainer {
     margin-top: 20%;
     transform: translate(-50%, -40%);
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    text-align: center;
     width: 45%;
 }
 
@@ -66,7 +60,6 @@ body {
 #regadd {
     width: 220%;
 }
-
 .submitpersonal {
     position: absolute;
     top: 90%;
@@ -80,4 +73,21 @@ body {
     border-radius: 8px;
     cursor: pointer;
     color: white;
+}
+.infoformfirst
+{
+    margin-right: 20%;
+}
+#reegaddinfoform
+{
+    margin-left: 10%;
+}
+#emailidaddinfoform
+{
+    margin-right: 27%;
+}
+#phoneinfoform
+{
+    color: rgba(61, 61, 61, 0.5);
+    margin-right: 82%;
 }

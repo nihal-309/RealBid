@@ -5,44 +5,44 @@ import '../styles/Governmentform.css'
 function Governmentform() {
     const [phone, setPhone] = useState('')
     return (
-        <div className='form-wrappergovernment'>
-            <div className='formcontainergovernment'>
-                <div className='inlinesectionformgovernment' id='firstsection'>
-                    <div className='inputdetgovernment'>
-                        <label htmlFor='field1'>First Name</label>
+        <div className='form-wrapperbusiness'>
+            <div className='formcontainerbusiness'>
+                <div className='inlinesectionformbusiness' id='firstsection'>
+                    <div className='inputdetbusiness'>
+                        <label htmlFor='field1' className='Buisnessfirst'>First Name</label>
+                        <input type='text' /> 
+                    </div>
+                    <div className='inputdetbusiness'>
+                        <label htmlFor='field2' className='Buisnessfirst'>Nationality</label>
                         <input type='text' />
                     </div>
-                    <div className='inputdetgovernment'>
-                        <label htmlFor='field2'>Nationality</label>
-                        <input type='text' />
-                    </div>
-                    <div className='inputdetgovernment'>
-                        <label htmlFor='field3'>Company Name</label>
+                    <div className='inputdetbusiness'>
+                        <label htmlFor='field3' id='comapanybusiness'>Company Name</label>
                         <input type='text' />
                     </div>
                 </div>
-                <div className='inlinesectionformgovernment'>
-                    <div className='inputdetgovernment'>
-                        <label htmlFor='field3'>Last Name</label>
+                <div className='inlinesectionformbusiness'>
+                    <div className='inputdetbusiness'>
+                        <label htmlFor='field3' className='Buisnessfirst'>Last Name</label>
                         <input type='text' />
                     </div>
-                    <div className='inputdetgovernment'>
-                    <label htmlFor='field4'>Company Address</label>
-                        <input type='text' id='regaddgovernment'/>
+                    <div className='inputdetbusiness'>
+                    <label htmlFor='field4' id='companyaddbusiness'>Company Address</label>
+                        <input type='text' id='regaddbusiness'/>
                     </div>
                 </div>
-                <div className='inlinesectionformgovernment'>
-                    <div className='inputdetgovernment'>
-                    <label htmlFor='field5'>Email ID </label>
+                <div className='inlinesectionformbusiness'>
+                    <div className='inputdetbusiness'>
+                    <label htmlFor='field5' id='emailidbusiness'>Email ID </label>
                         <input type='text' />
                     </div>
-                    <div className='inputdetgovernment'>
-                    <label htmlFor='field6'>Your Quiery</label>
-                        <input type='text' id='querycolgovernment'/>
+                    <div className='inputdetbusiness'>
+                    <label htmlFor='field6' className='Buisnessfirst'>Your Quiery</label>
+                        <input type='text' id='querycolbusiness'/>
                     </div>
                 </div>
-                <div className='phone-inputgovernment'>
-                    <label htmlFor='field7'>Mobile No.</label>
+                <div className='phone-inputbusiness'>
+                    <label htmlFor='field7' id='mobnobusiness'>Mobile No.</label>
                     <PhoneInput
                         country={'in'}
                         value={phone}
@@ -55,7 +55,7 @@ function Governmentform() {
                     />
                 </div>
                 <div>
-                    <div className='submitgovernment'>Continue</div>
+                    <div className='submitbusiness'>Continue</div>
                 </div>
             </div>
         </div>
