@@ -94,3 +94,13 @@
     color: rgba(61, 61, 61, 0.5);
     margin-right: 82%;
 }
+@media (max-width: 1024px) {
+    #businessfirstid
+    {
+        width: 100%;
+    }
+    #companyaddbusiness
+    {
+        width: 110%;
+    }
+  }

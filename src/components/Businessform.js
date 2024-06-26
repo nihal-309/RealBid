@@ -9,7 +9,7 @@ function Businessform() {
             <div className='formcontainerbusiness'>
                 <div className='inlinesectionformbusiness' id='firstsection'>
                     <div className='inputdetbusiness'>
-                        <label htmlFor='field1' className='Buisnessfirst'>First Name</label>
+                        <label htmlFor='field1' className='Buisnessfirst' id='businessfirstid'>First Name</label>
                         <input type='text' /> 
                     </div>
                     <div className='inputdetbusiness'>
