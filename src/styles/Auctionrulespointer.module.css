@@ -1,0 +1,45 @@
+.pointscointainer {
+    text-align: left;
+    margin-top: 5%;
+    gap: 20px;
+
+    width: 767px;
+    height: 405px;
+}
+
+.contentauctionrules {
+    width: 767px;
+    height: 39px;
+    padding-left: 15%;
+    font-family: 'Inria Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24%;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.03em;
+
+    color: #000000;
+}
+
+.auctionbutton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 20px;
+    gap: 10px;
+    color: white;
+    width: 135px;
+    height: 21px;
+    margin-left: 35%;
+    background: #FF6800;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 39%;
+}
+.auctionbutton:hover
+{
+    background-color:darkslategrey;
+}
