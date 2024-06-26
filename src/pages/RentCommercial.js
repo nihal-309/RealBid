@@ -31,6 +31,7 @@ function RentResidential() {
                 auctions={styles.auction}
                 add={styles.adress}
                 button="Get Owner Details"
+                link="/getOwnerDetails"
             />
             <BuyResCard //without auction
                 adress="Vellore Institute of Technology , Katpadi, Vellore Tamil Nadu  , India , 632014 "

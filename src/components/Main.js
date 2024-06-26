@@ -8,29 +8,31 @@ import IMG6 from '../assets/5.png'
 import IMG7 from '../assets/6.png'
 import IMG8 from '../assets/7.png'
 import IMG9 from '../assets/8.png'
+import IMG10 from '../assets/prop1.png'
+import IMG11 from '../assets/tender.png'
 import { Link } from "react-router-dom";
 import { useState } from 'react'
 
 function Main() {
-    const [display, setDisplay]= useState('block');
+    const [display, setDisplay]= useState('inline-block');
     const [display1, setDisplay1]= useState('none');
 
     const [color, setColor]= useState('#FF6800');
-    const [color1, setColor1]= useState('white');
+    const [color1, setColor1]= useState('black');
     const handleClick =() =>{
         if(display==='none'){
-            setDisplay('block');
+            setDisplay('inline-block');
             setDisplay1('none');
             setColor('#FF6800');
-            setColor1('white');
+            setColor1('black');
         }
     }
     const handleClick1 =() =>{
         if(display1==='none'){
             setDisplay('none');
-            setDisplay1('block');
+            setDisplay1('inline-block');
             setColor1('#FF6800');
-            setColor('white');
+            setColor('black');
         }
     }
     return(
@@ -42,7 +44,6 @@ function Main() {
                 <div className="line"></div>
                 <button onClick={handleClick1} className='com'><a style={{
                     color:color1
-                
                 }} href="#/">Commercial</a></button>
             </div>
             <div className="row2"
@@ -52,7 +53,6 @@ function Main() {
                 <Link to="/buyResidential" className='type3'>Buy</Link>
                 <Link to="/rentResidential" className='type3'>Rent</Link>
                 <Link to="/plot" className='type3'>Plot</Link>
-                <Link to="/plot" className='type3 extra'>Post Property for Free</Link>
             </div>
             <div className="row2"
                  style={{
@@ -60,8 +60,6 @@ function Main() {
                 }}>
                 <Link to="/buyCommercial" className='type3'>Buy</Link>
                 <Link to="/rentCommercial" className='type3'>Rent</Link>
-                <Link to="/plot" className='type3'>Plot</Link>
-                <Link to="/plot" className='type3 extra'>Post Property for Free</Link>
             </div>
             <div className="row3">
                 <img className='search' src={IMG1} alt="" />
@@ -72,17 +70,23 @@ function Main() {
             <select className='dropdown' id="">
                 <option className='' value="City">City</option>
             </select>
-            <select className='dropdown' id="">
+            <select style={{
+                display:display
+            }} className='dropdown' id="">
                 <option className='' value="BHK Type">BHK Type</option>
             </select>
             <select className='dropdown' id="">
                 <option className='' value="Availablity">Availablity</option>
             </select>
-            <select className='dropdown' id="">
+            <select style={{
+                display:display1
+            }} className='dropdown' id="">
                 <option className='' value="Type">Type</option>
             </select>
             </div>
-            <div className="line1"></div>
+            <div className="line1">
+                <Link to="/plot" className='type3 extra'>Post Property for Free</Link>
+            </div>
             <div className="row5">
                 <div className="first">
                     <div className="box">
@@ -101,9 +105,10 @@ function Main() {
                         <img src={IMG5} alt="" />
                         <p>Personal Assistance</p>
                     </div>
-                    <select name="" id="tender1">
-                        <option className='tend' value="Tenders for Auction">Tenders for Auction</option>
-                    </select>
+                    <div className="box">
+                        <img src={IMG10} alt="" />
+                        <p>Tenders for Auction</p>
+                    </div>
                 </div>
                 <div className="first sec">
                     <div className="box">
@@ -122,9 +127,10 @@ function Main() {
                         <img src={IMG9} alt="" />
                         <p>Booking Token</p>
                     </div>
-                    <select name="" id="properties1">
-                        <option value="Properties for auction">Properties for auction</option>
-                    </select>
+                    <div className="box odd">
+                        <img src={IMG11} alt="" />
+                        <p>Properties for auction</p>
+                    </div>
                 </div>
             </div>
         </div>

@@ -26,6 +26,7 @@ function Plot(){
                     card={styles.buyResCard}
                     button="Bid Now"
                     furnish="Semi"
+                    link="/startAuction"
                 />
                 <BuyResCard //without auction
                     adress="Vellore Institute of Technology , Katpadi, Vellore Tamil Nadu  , India , 632014 "
@@ -48,6 +49,7 @@ function Plot(){
                     furnish="Semi"
                     bids={styles.bids}
                     hide={styles.hide}
+                    link="/getOwnerDetails"
                 />
                 <BuyResCard  //auction
                     adress="Vellore Institute of Technology , Katpadi, Vellore Tamil Nadu  , India , 632014 "
@@ -68,6 +70,7 @@ function Plot(){
                     card={styles.buyResCard}
                     button="Bid Now"
                     furnish="Semi"
+                    link="/startAuction"
                 />
                 <BuyResCard //without auction
                     adress="Vellore Institute of Technology , Katpadi, Vellore Tamil Nadu  , India , 632014 "
@@ -90,6 +93,7 @@ function Plot(){
                     furnish="Semi"
                     bids={styles.bids}
                     hide={styles.hide}
+                    link="/getOwnerDetails"
                 />
                 <BuyResCard  //auction
                     adress="Vellore Institute of Technology , Katpadi, Vellore Tamil Nadu  , India , 632014 "
@@ -110,6 +114,7 @@ function Plot(){
                     card={styles.buyResCard}
                     button="Bid Now"
                     furnish="Semi"
+                    link="/startAuction"
                 />
             </div>
         </div>

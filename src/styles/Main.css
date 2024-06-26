@@ -16,8 +16,14 @@
     height: 44px;
 }
 
+.line1 .type3{
+    background-color: black !important;
+    color: white;
+    position: relative;
+    bottom: 20px;
+}
+
 .row1 button{
-    
     border: none;
     width: 120px;
     background-color: white;
@@ -27,11 +33,10 @@
     display: flex;
     align-items: center;
     margin: 0 22%;
-   
 }
 
 .res{
-    margin-right: 200px;
+    margin-right: 180px;
 }
 
 .res a{
@@ -39,7 +44,12 @@
 }
 
 .com{
-    margin-left: 200px;
+    margin-left: 180px;
+}
+
+.res, .com{
+    font-size: 24px;
+    font-weight: 600;
 }
 
 .row1 a{
@@ -211,7 +221,7 @@ select#tender1, select#properties1{
 }
 
 .row5{
-    margin-left: 2%;
+    /* margin-left: 2%; */
     color: black;
 }
 

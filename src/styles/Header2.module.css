@@ -74,12 +74,18 @@ select#tender, select#properties{
     z-index: 1;
 }
 
-.hamburg{
+.hamburgg{
     width: 30px;
     height: 40px;
     align-items: center;
     position: relative;
     bottom: 10px;
+    border: none;
+    outline: none;
+}
+
+.nav-item .dropdown{
+    border: none !important;
 }
 
 :global(.nav-link.dropdown-toggle::after) {
@@ -123,6 +129,7 @@ select#tender, select#properties{
 
 :global(.nav-item) {
     width: 40px !important;
+    border: none !important;
 }
 
 :global(.dropdown-item:hover) {

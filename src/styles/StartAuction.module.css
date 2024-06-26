@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 .ownerDetails{
-    padding: 35px 100px;
+    padding: 35px 65px;
     font-family: 'Outfit';
     background-color: white;
 }
@@ -23,16 +23,13 @@
 .heroImg{
     width: 715px;
     height: 423px;
+    border-radius: 25px;
 }
 
 .firstCont{
     display: flex;
 }
 
-.askingPrice{
-    margin-left: 50px;
-    margin-top: 120px;
-}
 
 .line{
     display: flex;
@@ -64,15 +61,6 @@
     display: flex;
     justify-content: space-between;
     margin-top: 40px;
-}
-
-.askingPrice h4{
-    margin-bottom: 40px;
-}
-
-.askingPrice span{
-    font-weight: 900;
-    font-size: 25px;
 }
 
 .heading{
@@ -192,4 +180,124 @@
 
 .sixthCont p{
     margin: 0 0 40px 0;
+}
+
+.content p{
+    margin: 0;
+}
+
+.content{
+    background-color: #D9D9D9;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.timer{
+    width: 497px !important;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 2px 6px 3px -1px rgba(0, 0, 0, 0.25);
+    padding: 10px;
+}
+
+.timer span{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* box-shadow: 4px 4px 3px -1px rgba(0, 0, 0, 0.35);    */
+    width: 91px;
+    height: 72px;    
+}
+
+.content1 p{
+    margin: 0;
+}
+
+.content1 .flexCont{
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.content1 .flexCont span{
+    font-size: 18px;
+}
+
+.content1{
+    margin-left: 30px;
+    margin-top: 120px;
+}
+
+.content1 .linee{
+    width: 507px;
+    color: #D9D9D9;
+}
+
+.content3 input[type='number']::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.content3{
+    margin-top: 50px;
+}
+
+.content3 input{
+    width: 264px;
+    height: 53px;
+    /* text-indent: 132px; */
+    text-align: center;
+}
+
+.cont3Img1, .cont3Img2{
+    position: relative;
+}
+
+.cont3Img2{
+    right: 260px;
+    background: none;
+}
+
+.cont3Img1{
+    right: 27px;
+    background: none;
+}
+
+.content3 button{
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.paras{
+    margin: 50px 0;
+}
+
+.buttons1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.buttons1 button{
+    width: 138px;
+    height: 43px;
+    border: none;
+    background-color: #FF6800;
+    box-shadow: 4px 4px 3px -1px rgba(0, 0, 0, 0.35);   
+}
+
+.bid{
+    width: 71px;
+    height: 53px;
+    border: none;
+    background-color: #FF6800;
+    box-shadow: 4px 4px 3px -1px rgba(0, 0, 0, 0.35);    
+}
+
+.money{
+    margin: 0;
+    font-size: 23px;
+    font-weight: 900;
 }

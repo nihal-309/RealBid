@@ -78,7 +78,7 @@ function Header2(){
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
                     <img className={styles.profile} src={IMG2} alt="" />
-                    <NavDropdown title={<img className={styles.hamburg} src={IMG1} alt=""/>} id="basic-nav-dropdown">
+                    <NavDropdown title={<img className={styles.hamburgg} src={IMG1} alt=""/>} id="basic-nav-dropdown">
                     <NavDropdown.Item href="#action/3.4">Properties for Auction</NavDropdown.Item>
                     <NavDropdown.Divider />
                     <NavDropdown.Item href="#action/3.4">Tenders for Auction</NavDropdown.Item>

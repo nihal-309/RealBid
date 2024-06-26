@@ -26,6 +26,7 @@ function BuyResidential() {
                     furnish="Semi"
                     card={styles.buyResCard}
                     button="Get Owner Details"
+                    link="/getOwnerDetails"
                     hide={styles.hide}
                 />
                 <BuyResCard  //with auction
@@ -46,9 +47,10 @@ function BuyResidential() {
                     finalPrice="1,20,00,000"
                     furnish="Semi"
                     button="Bid Now"
+                    link="/startAuction"
                     card={styles.buyResCard}
                 />
-                <BuyResCard 
+                <BuyResCard  //withiut auction
                     adress="Vellore Institute of Technology , Katpadi, Vellore Tamil Nadu  , India , 632014 "
                     auction="Without Auction"
                     bathroom="3"
@@ -65,10 +67,12 @@ function BuyResidential() {
                     railway="4"
                     finalPrice="1,20,00,000"
                     furnish="Semi"
-                    button="Get Owner Details"
                     card={styles.buyResCard}
+                    button="Get Owner Details"
+                    link="/getOwnerDetails"
+                    hide={styles.hide}
                 />
-                <BuyResCard 
+                <BuyResCard  //withiut auction
                     adress="Vellore Institute of Technology , Katpadi, Vellore Tamil Nadu  , India , 632014 "
                     auction="Without Auction"
                     bathroom="3"
@@ -85,8 +89,10 @@ function BuyResidential() {
                     railway="4"
                     finalPrice="1,20,00,000"
                     furnish="Semi"
-                    button="Get Owner Details"
                     card={styles.buyResCard}
+                    button="Get Owner Details"
+                    link="/getOwnerDetails"
+                    hide={styles.hide}
                 />
                 <BuyResCard  //with auction
                     adress="Vellore Institute of Technology , Katpadi, Vellore Tamil Nadu  , India , 632014 "
@@ -106,9 +112,10 @@ function BuyResidential() {
                     finalPrice="1,20,00,000"
                     furnish="Semi"
                     button="Bid Now"
+                    link="/startAuction"
                     card={styles.buyResCard}
                 />
-                <BuyResCard 
+                <BuyResCard  //withiut auction
                     adress="Vellore Institute of Technology , Katpadi, Vellore Tamil Nadu  , India , 632014 "
                     auction="Without Auction"
                     bathroom="3"
@@ -125,8 +132,10 @@ function BuyResidential() {
                     railway="4"
                     finalPrice="1,20,00,000"
                     furnish="Semi"
-                    button="Get Owner Details"
                     card={styles.buyResCard}
+                    button="Get Owner Details"
+                    link="/getOwnerDetails"
+                    hide={styles.hide}
                 />
             </div>
         </div>
