@@ -36,11 +36,13 @@
   }
   
   .indiviselectsignup:not(.selected) {
-    color: #FFFFFF;
+    color: rgba(0, 0, 0, 0.5);
+    ;
   }
   
   .companyselectsignup:not(.selected) {
-    color: #FFFFFF;
+    color: rgba(0, 0, 0, 0.5);
+;
   }
   
   .dividersignup {

@@ -33,9 +33,9 @@
 
 .inputdetgovernmentsignup input {
     width: 100%;
-    background: #3D3D3D;
-    border: 1px solid #FFFFFF;
-    color: white;
+    background-color: #D9D9D9;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.5);
     border-radius: 8px;
     padding: 10px;
     box-sizing: border-box;
@@ -47,12 +47,13 @@
 }
 label
 {
-    color: white;
+    color: rgba(0, 0, 0, 0.5);
+    margin-right: 70%;
 }
 #inputsignupnationality label
 {
-    margin-right: 60px;
-    color: white;
+    margin-right: 70%;
+    color: rgba(0, 0, 0, 0.5);
 }
 
 .inputsignupnationality {
@@ -69,9 +70,9 @@ label
 
 .phone-input-containersignup {
     width: 80%;
-    background: #3D3D3D;
-    border: 1px solid #FFFFFF;
-    color: white;
+    background-color: #D9D9D9;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.5);
     border-radius: 8px;
     padding: 10px;
 }

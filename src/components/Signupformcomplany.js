@@ -67,7 +67,7 @@ function Signupformcomplany() {
       <div className='formcontainersignupcompany'>
         <div className='inlinesectionformsignupcompany'>
           <div className='inputdetsignupcompany'>
-            <label htmlFor='firstName'>First Name</label>
+            <label htmlFor='firstName' id='firstnamesignupcomp'>First Name</label>
             <input
               type='text'
               id='firstName'
@@ -91,7 +91,7 @@ function Signupformcomplany() {
         </div>
         <div className='inlinesectionformsignupcompany'>
           <div className='inputdetsignupcompany'>
-            <label htmlFor='lastName'>Last Name</label>
+            <label htmlFor='lastName'id='firstnamesignupcomp'>Last Name</label>
             <input
               type='text'
               id='lastName'
@@ -102,7 +102,7 @@ function Signupformcomplany() {
             {errors.lastName && <span className='error'>{errors.lastName}</span>}
           </div>
           <div className='inputdetsignupcompany'>
-            <label htmlFor='registeredAddress'>Registered Address</label>
+            <label htmlFor='registeredAddress' id='addresssignupcomp'>Registered Address</label>
             <input
               type='text'
               id='registeredAddress'
@@ -126,7 +126,7 @@ function Signupformcomplany() {
             {errors.email && <span className='error'>{errors.email}</span>}
           </div>
           <div className='inputdetsignupcompany'>
-            <label htmlFor='state'>State</label>
+            <label htmlFor='state' id='statesignupcomp'>State</label>
             <input
               type='text'
               id='state'
@@ -139,7 +139,7 @@ function Signupformcomplany() {
         </div>
         <div className='inlinesectionformsignupcompany'>
           <div className='inputdetsignupcompany'>
-            <label htmlFor='companyName'>Company Name</label>
+            <label htmlFor='companyName' id='compnamecomp'>Company Name</label>
             <input
               type='text'
               id='companyName'
@@ -150,7 +150,7 @@ function Signupformcomplany() {
             {errors.companyName && <span className='error'>{errors.companyName}</span>}
           </div>
           <div className='inputdetsignupcompany'>
-            <label htmlFor='city'>City</label>
+            <label htmlFor='city'  id='citycomp'>City</label>
             <input
               type='text'
               id='city'
@@ -162,7 +162,7 @@ function Signupformcomplany() {
           </div>
         </div>
         <div className='phone-inputsignupcompany'>
-          <label htmlFor='phone'>Mobile No.</label>
+          <label htmlFor='phone' id='mobnoocomp'>Mobile No.</label>
           <PhoneInput
             country={'in'}
             value={formData.phone}

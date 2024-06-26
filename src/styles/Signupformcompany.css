@@ -33,11 +33,37 @@
 
 .inputdetsignupcompany input {
     width: 100%;
-    background: #3D3D3D;
-    border: 1px solid #FFFFFF;
-    color: white;
+    background-color: #D9D9D9;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.5);
     border-radius: 8px;
     padding: 10px;
+}
+#firstnamesignupcomp
+{
+    margin-right: 65%;
+}
+#addresssignupcomp
+{
+    width: 60%;
+}
+#statesignupcomp
+{
+    margin-right: 80%;
+}
+#compnamecomp
+{
+    margin-right: 25%;
+    width: fit-content;
+}
+#citycomp
+{
+    margin-right: 85%;
+}
+#mobnoocomp
+{
+    text-align: left;
+    margin-right: 83%;
 }
 
 .phone-inputsignupcompany {
@@ -47,9 +73,9 @@
 
 .phone-input-containersignupcomp {
     width: 80%;
-    background: #3D3D3D;
-    border: 1px solid #FFFFFF;
-    color: white;
+    background-color: #D9D9D9;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.5);
     border-radius: 8px;
     padding: 10px;
 }
