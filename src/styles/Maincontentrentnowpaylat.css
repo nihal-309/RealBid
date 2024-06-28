@@ -9,6 +9,7 @@ body
 .labelrentnowpaylat 
 {
     color: #000000;
+    text-align: left;
 }
 .prop1imagerentnowpaylater {
     position: absolute;
@@ -107,7 +108,8 @@ p {
 }
 
 .inputdetrentnow {
-    flex: 1;
+    display: flex;
+    flex-direction: column;
     margin: 4%;
     margin-left: 30%;
 }
@@ -119,10 +121,8 @@ p {
     align-items: center;
     padding: 6px;
     gap: 6px;
-
     width: 313px;
     height: 29px;
-
     border: 1px solid rgba(0, 0, 0, 0.5);
     border-radius: 8px;
     flex: none;
@@ -142,7 +142,6 @@ p {
 .secondsectionformrentnow {
     width: 494px;
     height: 50px;
-
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -152,9 +151,9 @@ p {
     align-items: center;
     letter-spacing: -0.03em;
     text-transform: capitalize;
-
     color: #000000;
     margin-left: 2%;
+    margin-top: 5%;
 }
 
 .buttoncontainerrentnowpaylat {
@@ -162,9 +161,8 @@ p {
     flex-direction: row;
     align-items: flex-start;
     padding: 0px;
-    gap: 26px;
-
-    width: 494px;
+    gap: 16px;
+    width: 514px;
     height: 41px;
 }
 

@@ -6,7 +6,7 @@
     justify-content:flex-end
 }
 
-select#tender, select#properties{
+select#tender, .propertiesButton{
     border: none;
     background-color: #3D3D3D;
     color: white;
@@ -14,6 +14,20 @@ select#tender, select#properties{
     font-size: 15px;
     margin: 0 20px;
 }
+
+.propertiesButton img{ 
+    position: relative;
+    bottom: 3px;
+}
+
+/* .propertiesButton{
+    border: none;
+    background-color: #3D3D3D;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    margin: 0 20px;
+} */
 
 .login{
     background-color: rgb(0, 0, 0);
@@ -164,3 +178,4 @@ select#tender, select#properties{
     margin: 0 auto;
     display: block;
 }
+

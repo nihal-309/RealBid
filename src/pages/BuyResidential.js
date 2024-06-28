@@ -47,7 +47,7 @@ function BuyResidential() {
                     finalPrice="1,20,00,000"
                     furnish="Semi"
                     button="Bid Now"
-                    link="/startAuction"
+                    link="/auctionRules"
                     card={styles.buyResCard}
                 />
                 <BuyResCard  //withiut auction
@@ -112,7 +112,7 @@ function BuyResidential() {
                     finalPrice="1,20,00,000"
                     furnish="Semi"
                     button="Bid Now"
-                    link="/startAuction"
+                    link="/auctionRules"
                     card={styles.buyResCard}
                 />
                 <BuyResCard  //withiut auction

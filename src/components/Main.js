@@ -85,7 +85,7 @@ function Main() {
             </select>
             </div>
             <div className="line1">
-                <Link to="/plot" className='type3 extra'>Post Property for Free</Link>
+                <Link to="/#" className='type3 extra'>Post Property for Free</Link>
             </div>
             <div className="row5">
                 <div className="first">
@@ -95,7 +95,7 @@ function Main() {
                     </div>
                     <div className="box">
                         <img src={IMG3} alt="" />
-                        <p>For NRI</p>
+                        <Link to="/forNri"><p>For NRI</p></Link>
                     </div>
                     <div className="box">
                         <img src={IMG4} alt="" />

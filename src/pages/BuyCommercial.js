@@ -27,7 +27,7 @@ function BuyResidential() {
                     finalPrice="1,20,00,000"
                     card={styles.buyResCard}
                     button="Bid Now"
-                    link="/startAuction"
+                    link="/auctionRules"
                 />
                 <BuyResCard //without auction
                     adress="Vellore Institute of Technology , Katpadi, Vellore Tamil Nadu  , India , 632014 "
@@ -71,7 +71,7 @@ function BuyResidential() {
                     finalPrice="1,20,00,000"
                     card={styles.buyResCard}
                     button="Bid Now"
-                    link="/startAuction"
+                    link="/auctionRules"
                 />
                 <BuyResCard //without auction
                     adress="Vellore Institute of Technology , Katpadi, Vellore Tamil Nadu  , India , 632014 "
@@ -115,7 +115,7 @@ function BuyResidential() {
                     finalPrice="1,20,00,000"
                     card={styles.buyResCard}
                     button="Bid Now"
-                    link="/startAuction"
+                    link="/auctionRules"
                 />
                 <BuyResCard //without auction
                     adress="Vellore Institute of Technology , Katpadi, Vellore Tamil Nadu  , India , 632014 "

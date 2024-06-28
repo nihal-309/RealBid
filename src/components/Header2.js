@@ -1,12 +1,14 @@
 import styles from '../styles/Header2.module.css';
 import React, { useState } from 'react';
 import Modal from 'react-modal';
+import PropertyForAuction from './propertiesForAuction';
 import Login from './Login';
 import Otp from './Otp';
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import IMG1 from '../assets/hamburger.png';
 import IMG2 from '../assets/profile.png';
+import IMG3 from '../assets/image.png';
 import { Link } from 'react-router-dom';
 
 Modal.setAppElement('#root');
@@ -15,6 +17,7 @@ function Header2(){
     const [phoneNumber, setPhoneNumber] = useState("");
     const [loginIsOpen, setLoginIsOpen] = useState(false);
     const [otpIsOpen, setOtpIsOpen] = useState(false);
+    const [isDivOpen, setIsDivOpen] = useState(false);
 
     const openLogin = () => {
         setLoginIsOpen(true);
@@ -25,6 +28,11 @@ function Header2(){
         setOtpIsOpen(true);
     }
 
+    const closeLogin1 = () => {
+        setLoginIsOpen(false);
+        setOtpIsOpen(false);
+    }
+
     const closeOtp = () => {
         setOtpIsOpen(false);
     }
@@ -33,15 +41,22 @@ function Header2(){
         setPhoneNumber(newPhoneNumber);
     };
 
+    const handlePropertiesChange = () => {
+        setIsDivOpen(!isDivOpen); // Toggle the visibility
+    };
+
     return(
         <div className={styles.Header2}>
             <select name="" id={styles.tender}>
                 <option className={styles.tend} value="Tenders for Auction">Tenders for Auction</option>
             </select>
             <div className={styles.line}></div>
-            <select name="" id={styles.properties}>
-                <option value="Properties for auction">Properties for auction</option>
-            </select>
+
+            <button className={styles.propertiesButton} onClick={handlePropertiesChange}>
+                Properties for auction <img src={IMG3} alt="" />
+            </button>
+            {isDivOpen && <PropertyForAuction />}
+
             <button onClick={openLogin} className={styles.login}>Login</button>
             <Link to="/signup"><button className={styles.reg}>Register</button></Link>
 
@@ -70,7 +85,7 @@ function Header2(){
                     }
                 }}
             >
-                <Login onPhoneNumberChange={handlePhoneNumberChange} close={closeLogin}/> {/*setNumber={setNumber}  close={closeLogin} */}
+                <Login onPhoneNumberChange={handlePhoneNumberChange} close1={closeLogin1} close={closeLogin}/> {/*setNumber={setNumber}  close={closeLogin} */}
             </Modal>
             
             <Navbar bg="#3D3D3D" expand="lg">

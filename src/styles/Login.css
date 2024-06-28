@@ -42,3 +42,8 @@
     font-weight: 800;
     font-family: 'Outfit';
 }
+
+.closeButton{
+    position: relative;
+    bottom: 30px;
+}

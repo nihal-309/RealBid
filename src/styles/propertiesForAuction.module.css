@@ -1,0 +1,32 @@
+.propertiesForAuction{
+    position: absolute;
+    top: 58%; /* Adjust this to 100px if you only want to center horizontally */
+    left: 50%;
+    transform: translate(-50%, -50%); /* Adjust this to translateX(-50%) for horizontal centering only */
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    width: 1140px;
+    padding: 20px 50px;
+}
+
+.common{
+    text-align: left;
+}
+
+.common p{
+    margin-left: 0;
+}
+
+.head{
+    background-color: #3D3D3D;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.head img{
+    margin-left: 20px;
+}

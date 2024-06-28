@@ -13,6 +13,8 @@ import PropertyManagement from './pages/PropertyManagement';
 import Partnership from './pages/Partnership';
 import GetOwnerDetails from './pages/GetOwnerDetails';
 import StartAuction from './pages/StartAuction';
+import AuctionRules from './pages/AuctionRules';
+import ForNri from './pages/ForNri';
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Layout from './Layout';
@@ -102,6 +104,16 @@ function App(){
         <Route path="/startAuction" element={
         <Layout>
           <StartAuction />
+        </Layout>
+        } />
+        <Route path="/auctionRules" element={
+        <Layout>
+          <AuctionRules />
+        </Layout>
+        } />
+        <Route path="/forNri" element={
+        <Layout>
+          <ForNri />
         </Layout>
         } />
     </Routes> 

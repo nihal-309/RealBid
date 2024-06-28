@@ -3,11 +3,8 @@
 }
 
 .cards{
-    margin: auto;
-}
-
-.buyResCard{
-    height: 360px;
+    margin:0 auto;
+    width: 73%;
 }
 
 .hide{

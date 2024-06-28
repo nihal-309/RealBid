@@ -35,3 +35,17 @@
 body {
     background: #3D3D3D;
 }
+
+.goHome{
+    position: relative;
+    right: 560px;
+    top: 10px;
+    background-color: #FF6800;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 21px;
+    margin-left: 10px;
+    font-weight: 700;
+    text-decoration: none;
+}

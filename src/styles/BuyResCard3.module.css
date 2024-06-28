@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 .buyResCard{
-    width: 998px;
-    height: 296px !important;
+    width: 100%;
+    height: 295px !important;
     background-color: white;
     margin: 20px auto;
     padding: 5px;

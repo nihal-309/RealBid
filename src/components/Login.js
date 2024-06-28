@@ -4,6 +4,7 @@ import 'react-phone-input-2/lib/style.css'
 import IMG2 from '../assets/google.png';
 import IMG3 from '../assets/chrome.png';
 import IMG4 from '../assets/facebook.png';
+import IMG5 from '../assets/close2.png';
 import PhoneInput from "react-phone-input-2";
 import { parsePhoneNumberFromString } from 'libphonenumber-js'
 import 'react-phone-number-input/style.css'
@@ -35,6 +36,10 @@ function Login(props) {
         }
     };
 
+    function handleClick1(){
+        props.close1()
+    } 
+
     function handleClick(){ 
         if(len===true){
             props.close()
@@ -49,6 +54,7 @@ function Login(props) {
     return (
     <div className="Login">
         <div className="loginContent">
+            <img onClick={handleClick1} className='closeButton' src={IMG5} alt="" />
             <h1 className='logg'>Login</h1>
             <p className='phone'>Enter your Phone Number to continue</p>
             <PhoneInput

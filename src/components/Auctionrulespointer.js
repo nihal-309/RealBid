@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from '../styles/Auctionrulespointer.module.css'
+import { Link } from 'react-router-dom'
 function Auctionrulespointer() {
   return (
     <div>
@@ -12,9 +13,9 @@ function Auctionrulespointer() {
         <p className={styles.contentauctionrules}>6.Extra 2 minutes will be added to the timer if bids are placed in the last 1 minute.</p>
         <p className={styles.contentauctionrules}>7.The details of the owner of the property will be given to the participant if they win the auction.</p>
       </div>
-      <div className={styles.auctionbutton}>
+      <Link to="/startAuction" className={styles.auctionbutton}>
         Start Auction
-      </div>
+      </Link>
     </div>
   )
 }
