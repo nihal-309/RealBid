@@ -14,7 +14,7 @@
     width: fit-content;
     height: 83px;
     left: 273px;
-    top: 10px;
+    top: 70px;
 
     font-family: 'Inter';
     font-style: normal;
@@ -33,7 +33,7 @@
     width: 378px;
     height: 61.57px;
     left: 160px;
-    top: 100.78px;
+    top: 160.78px;
     padding-left: 5%;
     background: #F5F5F5;
     border-radius: 10px;
@@ -44,7 +44,7 @@
     width: 378px;
     height: 61.57px;
     left: 160px;
-    top: 190.78px;
+    top: 250.78px;
     padding-left: 5%;
     background: #F5F5F5;
     border-radius: 10px;
@@ -55,7 +55,7 @@
     width: 338px;
     height: 61.57px;
     left: 160px;
-    top: 280.78px;
+    top: 340.78px;
     padding-left: 8%;
     background: #F5F5F5;
     border-radius: 10px;
@@ -66,7 +66,7 @@
     width: 93.56px;
     height: 26.02px;
     left: 183.04px;
-    top: 120.2px;
+    top: 185.2px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -84,7 +84,7 @@
     width: 93.56px;
     height: 26.02px;
     left: 183.04px;
-    top: 211.2px;
+    top: 275.2px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -102,7 +102,7 @@
     width: 93.56px;
     height: 26.02px;
     left: 183.04px;
-    top: 302.2px;
+    top: 365.2px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -122,7 +122,7 @@
     width: 462px;
     height: 71.57px;
     left: 160px;
-    top: 370.08px;
+    top: 430.08px;
     color: wheat;
 }
 
@@ -159,7 +159,7 @@
     width: 398px;
     height: 22px;
     left: 162px;
-    top: 448px;
+    top: 538px;
     cursor: pointer;
 
     background: #FF6800;
