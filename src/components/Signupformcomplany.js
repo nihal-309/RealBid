@@ -77,7 +77,7 @@ function Signupformcomplany() {
             />
             {errors.firstName && <span className='error'>{errors.firstName}</span>}
           </div>
-          <div className='inputdetsignupcompany'>
+          <div className='inputdetsignupcompany' id='nationalitysignupcomp'>
             <label htmlFor='nationality'>Nationality</label>
             <input
               type='text'

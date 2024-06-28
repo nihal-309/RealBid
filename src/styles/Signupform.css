@@ -97,5 +97,19 @@
     margin: 20px auto 0;
     color: white;
 }
-
-
+@media (max-width: 1024px) {
+    #emailsignupform
+    {
+        margin-bottom: 6%;
+    }
+    label
+    {
+        width: 40%;
+    }
+    .phone-input-containersignup
+    {
+        width: 50%;
+        padding-left: 25%;
+        width: 230px;
+    }
+  }

@@ -86,7 +86,7 @@ function Signupform() {
             />
             {errors.lastName && <span className='error'>{errors.lastName}</span>}
           </div>
-          <div className='inputdetgovernmentsignup'>
+          <div className='inputdetgovernmentsignup' id='emailsignupform'>
             <label htmlFor='email'>Email Id</label>
             <input
               type='email'
@@ -100,7 +100,7 @@ function Signupform() {
         </div>
         <div className='inlinesectionformgovernmentsignup' id='signupformsubmitsection'>
           <div className='inputdetgovernmentsignup' id='inputsignupnationality'>
-            <label htmlFor='nationality'>Nationality</label>
+            <label htmlFor='nationality' >Nationality</label>
             <input
               type='text'
               id='nationality'

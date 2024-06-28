@@ -101,3 +101,18 @@
     margin-top: 20px;
     margin-left: 20%;
 }
+@media (max-width: 1024px) {
+    #addresssignupcomp
+    {
+        width:85%;
+    }
+    label
+    {
+        width: 50%;
+    }
+   
+    .phone-input-containersignupcomp
+    {
+        width: 75%;
+    }
+  }
