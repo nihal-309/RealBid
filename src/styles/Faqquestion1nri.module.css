@@ -4,43 +4,53 @@
     text-align: left;
     padding: 24px;
     margin-left: 25%;
-    margin-top: 4%;
     width: 596px;
-    height: 178.8px;
-
-    background: #FFFFFF;
+    height: auto;
     border-radius: 16px;
-    margin-bottom: 5%;
+    transition: background-color 0.3s ease; /* Smooth transition */
 }
+
 .faqcontrental {
     width: 548px;
     height: 40px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
     color: #3D3D3D;
-    flex: none;
-    order: 0;
-    flex-grow: 1;
-
+    background: #FFFFFF;
+    border-radius: 16px;
+    cursor: pointer;
+    padding: 8px 16px; /* Added padding for better spacing */
+    margin-bottom: 8px; /* Added margin-bottom for spacing between elements */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .secondlinefaq {
+    display: none; /* Hidden by default */
     width: 548px;
-    height: 40px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 15px;
+    font-size: 14px; /* Increased font size for better readability */
+    line-height: 18px; /* Adjusted line height */
     color: #676767;
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
+    padding: 8px 16px; /* Added padding for better spacing */
+    margin-bottom: 8px; /* Added margin-bottom for spacing between elements */
+    background-color: #FFFFFF; /* Background color for the dropdown content */
+    border-radius: 16px; /* Border radius for the dropdown content */
+   
+}
 
+.faqcontainerrental:hover {
+    background-color: #FFFFFF; /* Apply background color to the entire container */
+}
+
+.faqcontainerrental:hover .secondlinefaq {
+    display: block; /* Show the dropdown content on hover */
 }
 
 .finishrent {
