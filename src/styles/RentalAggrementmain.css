@@ -33,7 +33,7 @@ body {
     margin-top: 10%;
     margin-left: 7%;
     margin-right: 10%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 .leftsectionrental {
@@ -41,7 +41,7 @@ body {
     flex-direction: column;
     align-items: left;
     text-align: left;
-   
+    margin-left: 2%;
     padding: 0px;
     gap: 7px;
     height: auto;
@@ -88,7 +88,7 @@ body {
 .rentalaggrementcont {
     width: 478px;
     height: 37px;
-
+    margin-left: 2%;
     background: rgba(0, 0, 0, 0.11);
     color: white;
     margin-top: 2%;
@@ -101,6 +101,7 @@ body {
 .imagerental {
     width: 276px;
     height: 204px;
+    margin-left: 12%;
     flex: none;
     order: 0;
     align-self: stretch;
@@ -129,7 +130,7 @@ body {
 
 .form-wrappergovernmentrentalaggrement {
    
-    width: 100%;
+    width: 120%;
     height: 400px;
 
 }
