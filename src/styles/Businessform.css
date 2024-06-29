@@ -1,10 +1,10 @@
 .form-wrapperbusiness {
     width: 100%;
-    height: 400px;
+    height: 350px;
     margin-left: 20%;
 }
 .formcontainerbusiness {
-    margin-top: 20%;
+    margin-top: 1%;
     transform: translate(-50%, -40%);
     display: flex;
     flex-direction: column;
@@ -16,6 +16,7 @@
     display: flex;
     justify-content: space-between;
     gap: 10px;
+    margin-top: 2%;
 }
 .inlinesectionformbusiness label {
     color: rgba(61, 61, 61, 0.5);

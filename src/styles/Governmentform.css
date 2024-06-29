@@ -16,6 +16,7 @@
     display: flex;
     justify-content: space-between;
     gap: 10px;
+    margin-top: 2%;
 }
 .inlinesectionformbusiness label {
     color: rgba(61, 61, 61, 0.5);
