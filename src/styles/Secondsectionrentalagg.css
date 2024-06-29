@@ -1,11 +1,9 @@
 .secondsectioncontainer {
     padding: 20px;
-    position: absolute;
     width: 570px;
     height: 354px;
-    left: 345px;
-    top: 1020px;
-
+    margin-left: 25%;
+    margin-bottom: 5%;
     background: #3D3D3D;
     box-shadow: 0px 4px 7.8px rgba(0, 0, 0, 0.25);
     border-radius: 30px;

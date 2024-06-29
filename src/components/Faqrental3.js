@@ -1,11 +1,23 @@
-import React from 'react'
-import '../styles/Faqrental3.css'
+import React,{useState} from 'react'
+import styles from '../styles/Faqrental3.module.css'
 function Faqrental3() {
+  const [isHovered, setIsHovered] = useState(false);
   return (
-    <div className='faqcontainerrental3'>
-        <p className='faqcontrental'>Is Aadhar e-sign valid?</p>
-        <p className='secondlinefaq'>Yes, Aadhaar eSign-based digital signatures are legally recognized and secure for electronically signing documents, in accordance with Gazette Notification No. 2015 Jan -GSR 61(E) Electronic Signature or Electronic Authentication Technique and Procedure Rules, 2015.</p>
-        <p className='finishrent'></p>
+    <div
+      className={styles.faqcontainerrental}
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+    >
+      <p className={styles.faqcontrental}>
+      Is Aadhar e-sign valid?
+        <span>{isHovered ? '▲' : '▼'}</span>
+      </p>
+      {isHovered && (
+        <p>
+          <p className={styles.secondlinefaq}>Signed agreement will be sent to the registered mail id and it can also be delivered as a hard copy at your door step.</p>
+          <p className={styles.finishrent}></p>
+        </p>
+      )}
     </div>
   )
 }
