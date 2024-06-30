@@ -1,5 +1,5 @@
 .form-wrapperbusiness {
-    width: 100%;
+    width: 85%;
     height: 350px;
     margin-left: 20%;
     margin-top: 1%;
@@ -95,6 +95,7 @@
 {
     color: rgba(61, 61, 61, 0.5);
     margin-right: 82%;
+    width: 22%;
 }
 @media (max-width: 1024px) {
     #businessfirstid
